@@ -180,8 +180,25 @@ ul.news__list {
       object-fit: contain;
 }
 
+@media (min-width: 981px) {
+.traveler__image:hover {
+  transform: scale(2.5);
+}
+}
+
 .traveler__copy {
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
+}
+
+.traveler__copy p {
+        font-family: Gal;
+          text-align: justify;
+}
+
+.traveler__copy h2, h3 {
+    font-family: Gal;
+    letter-spacing: 2px;
+        margin-bottom: 5px;
 }
 
 .opposite {

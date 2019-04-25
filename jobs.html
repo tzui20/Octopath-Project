@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project Octopath</title>
+	<link href="main.css" media="screen" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="nav__logo">
+		<a href="main.html"><img alt="Octopath Traveler Logo" class="logo" src="logo.svg"></a>
+	</div>
+	<div class="main__nav">
+		<div class="nav__item">
+			<img class="list__logo" src="sun.png"><a href="travelers.html">Travelers</a>
+		</div>
+		<div class="nav__item">
+			<img class="list__logo" src="moon.png"><a href="jobs.html">Jobs</a>
+		</div>
+		<div class="nav__item">
+			<img class="list__logo" src="sun.png">Locations
+		</div>
+		<div class="nav__item">
+			<img class="list__logo" src="moon.png">Skills
+		</div>
+	</div>
+	<div class="main__jobs">
+		<div class="job__copy">
+		<h3>Cleric</h3><img alt="Cleric" class="job__sprite" src="char-sprite-ophilia.png"></div>
+		<div class="support__skills">
+			<table>
+				<thead>
+					<tr>
+						<th>Support Skill</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Heighten Senses</td>
+						<td>Attack random foes 5 to 8 times with a bow.</td>
+					</tr>
+					<tr>
+						<td>Eagle Eye</td>
+						<td>Deal critical damage with a bow to a single foe.</td>
+					</tr>
+					<tr>
+						<td>Second Serving</td>
+						<td>Deal heavy lightning damage to a single foe.</td>
+					</tr>
+					<tr>
+						<td>Patience</td>
+						<td>Cause a single foe to act at the end of the turn for 2 turns.</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="skills">
+			<table>
+				<thead>
+					<tr>
+						<th>Skill</th>
+						<th>SP</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Heal Wounds</td>
+						<td>8</td>
+						<td>Restore HP to all allies.</td>
+					</tr>
+					<tr>
+						<td>Holy Light <img alt="Light" class="wpn_img" src="light.jpg" title="Light"></td>
+						<td>6</td>
+						<td>Inflict light-based damage on a single foe.</td>
+					</tr>
+					<tr>
+						<td>Sheltering Light</td>
+						<td>6</td>
+						<td>Augment on ally's elemental defense for 2 turns.</td>
+					</tr>
+					<tr>
+						<td>Luminescence <img alt="Light" class="wpn_img" src="light.jpg" title="Light"></td>
+						<td>9</td>
+						<td>Deal light-based damage to all foes.</td>
+					</tr>
+					<tr>
+						<td>Heal More</td>
+						<td>25</td>
+						<td>Restore a large amount of HP to all allies.</td>
+					</tr>
+					<tr>
+						<td>Reflective Veil</td>
+						<td>22</td>
+						<td>Grant a single ally the ability to reflect one elemental attack.</td>
+					</tr>
+					<tr>
+						<td>Revive</td>
+						<td>50</td>
+						<td>Revive all incapacitated allies.</td>
+					</tr>
+					<tr>
+						<td><b>Aelfric's Auspices</b></td>
+						<td>30</td>
+						<td>For 3 turns, skills performed by a single chosen ally will trigger twice (this will not effect other divine skills).</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="main__jobs">
+		<div class="job__copy">
+		<h3>Scholar</h3><img alt="Scholar" class="job__sprite" src="char-sprite-cyrus.png"></div>
+		<div class="support__skills">
+			<table>
+				<thead>
+					<tr>
+						<th>Support Skill</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Heighten Senses</td>
+						<td>Attack random foes 5 to 8 times with a bow.</td>
+					</tr>
+					<tr>
+						<td>Eagle Eye</td>
+						<td>Deal critical damage with a bow to a single foe.</td>
+					</tr>
+					<tr>
+						<td>Second Serving</td>
+						<td>Deal heavy lightning damage to a single foe.</td>
+					</tr>
+					<tr>
+						<td>Patience</td>
+						<td>Cause a single foe to act at the end of the turn for 2 turns.</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="skills">
+			<table>
+				<thead>
+					<tr>
+						<th>Skill</th>
+						<th>SP</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Fireball <img alt="Fire" class="wpn_img" src="fire.jpg" title="Fire"></td>
+						<td>8</td>
+						<td>Deal fire damage to all foes.</td>
+					</tr>
+					<tr>
+						<td>Icewind <img alt="Ice" class="wpn_img" src="ice.jpg" title="Ice"></td>
+						<td>8</td>
+						<td>Deal ice damage to all foes.</td>
+					</tr>
+					<tr>
+						<td>Lightning Bolt <img alt="Lightning" class="wpn_img" src="lightning.jpg" title="Lightning"></td>
+						<td>8</td>
+						<td>Deal lightning damage to all foes.</td>
+					</tr>
+					<tr>
+						<td>Analyze</td>
+						<td>1</td>
+						<td>Reveal the HP and one weakness of a single foe.</td>
+					</tr>
+					<tr>
+						<td>Fire Storm <img alt="Fire" class="wpn_img" src="fire.jpg" title="Fire"></td>
+						<td>22</td>
+						<td>Deal fire damage to all foes twice.</td>
+					</tr>
+					<tr>
+						<td>Blizzard <img alt="Ice" class="wpn_img" src="ice.jpg" title="Ice"></td>
+						<td>22</td>
+						<td>Deal ice damage to all foes twice.</td>
+					</tr>
+					<tr>
+						<td>Lightning Blast <img alt="Lightning" class="wpn_img" src="lightning.jpg" title="Lightning"></td>
+						<td>22</td>
+						<td>Deal lightning damage to all foes twice.</td>
+					</tr>
+					<tr>
+						<td><b>Alephan's Enlightenment</b></td>
+						<td>30</td>
+						<td>For 3 turns, spells cast by a single chosen ally that usually target all foes will instead be focused on a single foe at increased intensity.</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="main__jobs">
+		<div class="job__copy">
+		<h3>Merchant</h3><img alt="Merchant" class="job__sprite" src="char-sprite-tressa.png"></div>
+		<div class="support__skills">
+			<table>
+				<thead>
+					<tr>
+						<th>Support Skill</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Heighten Senses</td>
+						<td>Attack random foes 5 to 8 times with a bow.</td>
+					</tr>
+					<tr>
+						<td>Eagle Eye</td>
+						<td>Deal critical damage with a bow to a single foe.</td>
+					</tr>
+					<tr>
+						<td>Second Serving</td>
+						<td>Deal heavy lightning damage to a single foe.</td>
+					</tr>
+					<tr>
+						<td>Patience</td>
+						<td>Cause a single foe to act at the end of the turn for 2 turns.</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="skills">
+			<table>
+				<thead>
+					<tr>
+						<th>Skill</th>
+						<th>SP</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Collect</td>
+						<td>2</td>
+						<td>Collect money from a single foe.</td>
+					</tr>
+					<tr>
+						<td>Tradewinds <img alt="Wind" class="wpn_img" src="wind.jpg" title="Wind"></td>
+						<td>7</td>
+						<td>Deal heavy wind damage to a single foe.</td>
+					</tr>
+					<tr>
+						<td>Rest</td>
+						<td>-</td>
+						<td>Restore one's own HP and SP, and cure status ailments.</td>
+					</tr>
+					<tr>
+						<td>Trade Tempest <img alt="Wind" class="wpn_img" src="wind.jpg" title="Wind"></td>
+						<td>10</td>
+						<td>Deal wind damage to all foes.</td>
+					</tr>
+					<tr>
+						<td>Donate BP</td>
+						<td>3</td>
+						<td>Grant 1 BP to an ally.</td>
+					</tr>
+					<tr>
+						<td>Sidestep</td>
+						<td>10</td>
+						<td>Dodge a single physical attack with a 100% success rate.</td>
+					</tr>
+					<tr>
+						<td>Hired Help<br>
+						<img alt="Wind" class="wpn_img" src="Swords.png" title="Wind"><img alt="Wind" class="wpn_img" src="Daggers.png" title="Wind"><img alt="Wind" class="wpn_img" src="Axes.png" title="Wind"><img alt="Wind" class="wpn_img" src="light.jpg" title="Wind"></td>
+						<td>-</td>
+						<td>Pay money to summon hired help to the battlefield.</td>
+					</tr>
+					<tr>
+						<td><b>Bifelgan's Bounty</b></td>
+						<td>30</td>
+						<td>Unleash a non-elemental attack on a single foe and receive money equivalent to the damage dealt.</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="main__jobs">
+		<div class="job__copy">
+		<h3>Warrior</h3><img alt="Warrior" class="job__sprite" src="char-sprite-olberic.png"></div>
+		<div class="support__skills">
+			<table>
+				<thead>
+					<tr>
+						<th>Support Skill</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Cover</td>
+						<td>The equipping character will absorb single-targeted damage for allies who are near death.</td>
+					</tr>
+					<tr>
+						<td>Summon Strength</td>
+						<td>Increases the physical attack strength of the equpping character by 50.</td>
+					</tr>
+					<tr>
+						<td>Endure</td>
+						<td>When the equipping character is inflicted with poison, sleep, confusion, blindness, silence, terror, or unconciousness, their physical and elemental defenses are enhanced.</td>
+					</tr>
+					<tr>
+						<td>Surpassing Power</td>
+						<td>Increases the maximum damage that can be dealth by the equpping character to 99,999.</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="skills">
+			<table>
+				<thead>
+					<tr>
+						<th>Skill</th>
+						<th>SP</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Level Slash <img alt="Sword" class="wpn_img" src="Swords.png" title="Sword"></td>
+						<td>9</td>
+						<td>Attack all foes with a sword.</td>
+					</tr>
+					<tr>
+						<td>Abide</td>
+						<td>4</td>
+						<td>Increase the user's physical attack strength for 3 turns.</td>
+					</tr>
+					<tr>
+						<td>Spearhead <img alt="Spear" class="wpn_img" src="Polearms.png" title="Spear"></td>
+						<td>6</td>
+						<td>Attack a single foe with a polearm, and act earlier on your next turn.</td>
+					</tr>
+					<tr>
+						<td>Incite</td>
+						<td>4</td>
+						<td>Become more readily targeted by foes for 3 turns.</td>
+					</tr>
+					<tr>
+						<td>Cross Strike <img alt="Sword" class="wpn_img" src="Swords.png" title="Sword"></td>
+						<td>12</td>
+						<td>Unleash a sword attack on a single foe.</td>
+					</tr>
+					<tr>
+						<td>Stout Wall</td>
+						<td>4</td>
+						<td>Increase the user's physical defense for 3 turns.</td>
+					</tr>
+					<tr>
+						<td>Thousand Spears <img alt="Spear" class="wpn_img" src="Polearms.png" title="Spear"></td>
+						<td>20</td>
+						<td>Attack random foes with a polearm 5 to 10 times.</td>
+					</tr>
+					<tr>
+						<td><b>Brand's Thunder <img alt="Sword" class="wpn_img" src="Swords.png" title="Sword"></b></td>
+						<td>30</td>
+						<td>Unleash a tremendously powerful sword attack on a single foe.</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="main__jobs">
+		<div class="job__copy">
+		<h3>Dancer</h3><img alt="Dancer" class="job__sprite" src="char-sprite-primrose.png"></div>
+		<div class="support__skills">
+			<table>
+				<thead>
+					<tr>
+						<th>Support Skill</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>The Show Goes On</td>
+						<td>Status augmentations you grant to allies will persist for one additional turn.</td>
+					</tr>
+					<tr>
+						<td>Eye for an Eye</td>
+						<td>Gain a 50% chance of counterattacking after being targeted by a physical attack.</td>
+					</tr>
+					<tr>
+						<td>Second Wind</td>
+						<td>Recover a certain amount of SP each turn.</td>
+					</tr>
+					<tr>
+						<td>Encore</td>
+						<td>Once per battle, upon being incapacitated, you will recover with 25% of your maximum HP.</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="skills">
+			<table>
+				<thead>
+					<tr>
+						<th>Skill</th>
+						<th>SP</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Lion Dance</td>
+						<td>4</td>
+						<td>One ally's physical attacks become more powerful for 2 turns.</td>
+					</tr>
+					<tr>
+						<td>Moonlight Waltz <img alt="Darkness" class="wpn_img" src="darkness.jpg" title="Darkness"></td>
+						<td>7</td>
+						<td>Deal heavy dark damage to a single foe.</td>
+					</tr>
+					<tr>
+						<td>Peacock Strut</td>
+						<td>4</td>
+						<td>Augment a single ally's elemental attacks for 2 turns.</td>
+					</tr>
+					<tr>
+						<td>Mole Dance</td>
+						<td>4</td>
+						<td>Augment a single ally's physical defense for 2 turns.</td>
+					</tr>
+					<tr>
+						<td>Night Ode <img alt="Darkness" class="wpn_img" src="darkness.jpg" title="Darkness"></td>
+						<td>10</td>
+						<td>Deal dark damage to all foes.</td>
+					</tr>
+					<tr>
+						<td>Panther Dance</td>
+						<td>4</td>
+						<td>Increase a single ally's speed for 2 turns.</td>
+					</tr>
+					<tr>
+						<td>Bewildering Grace</td>
+						<td>25</td>
+						<td>Cause a curious effect to occur one time.</td>
+					</tr>
+					<tr>
+						<td><b>Sealticge's Seduction</b></td>
+						<td>30</td>
+						<td>For 3 turns, skills performed by a single ally that usually target one foe will affect all foes instead (this will not affect divine skills).</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="main__jobs">
+		<div class="job__copy">
+		<h3>Apothecary</h3><img alt="Apothecary" class="job__sprite" src="char-sprite-alfyn.png"></div>
+		<div class="support__skills">
+			<table>
+				<thead>
+					<tr>
+						<th>Support Skill</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Inspiration</td>
+						<td>With each successful standard attack, gain SP equal to 1% of the damage you deal.</td>
+					</tr>
+					<tr>
+						<td>Hale and Hearty</td>
+						<td>Increases maximum HP by 500.</td>
+					</tr>
+					<tr>
+						<td>Resist Ailments</td>
+						<td>Improves resistance to poison, sleep, confusion, blindness, silence, terror, and unconsciousness.</td>
+					</tr>
+					<tr>
+						<td>Heightened Healing</td>
+						<td>Gain an additional 30% HP or SP when being healed or restored.</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="skills">
+			<table>
+				<thead>
+					<tr>
+						<th>Skill</th>
+						<th>SP</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>First Aid</td>
+						<td>4</td>
+						<td>Restore HP to a single ally.</td>
+					</tr>
+					<tr>
+						<td>Icicle <img alt="Ice" class="wpn_img" src="ice.jpg" title="Ice"></td>
+						<td>7</td>
+						<td>Deal ice damage to a single foe.</td>
+					</tr>
+					<tr>
+						<td>Rehabilitate</td>
+						<td>10</td>
+						<td>Cure a single ally of all status ailments, and render them immune to further ailments for 2 turns.</td>
+					</tr>
+					<tr>
+						<td>Amputation <img alt="Axe" class="wpn_img" src="Axes.png" title="Axe"></td>
+						<td>8</td>
+						<td>Unleash an axe attack on a single foe.</td>
+					</tr>
+					<tr>
+						<td>Empoison</td>
+						<td>6</td>
+						<td>Poison a single foe for 2 turns.</td>
+					</tr>
+					<tr>
+						<td>Vivify</td>
+						<td>16</td>
+						<td>Revive a single incapacitated ally.</td>
+					</tr>
+					<tr>
+						<td>Last Stand <img alt="Axe" class="wpn_img" src="Axes.png" title="Axe"></td>
+						<td>16</td>
+						<td>Attack all foes with an axe, dealing damage inversely proportional to your current HP.</td>
+					</tr>
+					<tr>
+						<td><b>Dohter's Charity</b></td>
+						<td>30</td>
+						<td>For 3 turns, items used by a single chosen ally will affect all.</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="main__jobs">
+		<div class="job__copy">
+		<h3>Thief</h3><img alt="Thief" class="job__sprite" src="char-sprite-therion.png"></div>
+		<div class="support__skills">
+			<table>
+				<thead>
+					<tr>
+						<th>Support Skill</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Incidental Attack</td>
+						<td>When using a non-damaging skill on a foe, there is a 50% chance you will attack as well.</td>
+					</tr>
+					<tr>
+						<td>Fleetfoot</td>
+						<td>Increases the equipping character's speed by 50.</td>
+					</tr>
+					<tr>
+						<td>Snatch</td>
+						<td>The Equipping character will receive double the loot when using steal or collect skills.</td>
+					</tr>
+					<tr>
+						<td>Insult to Injury</td>
+						<td>Status ailments and attribute penalties inflicted by the equipping character will last for one additional turn.</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="skills">
+			<table>
+				<thead>
+					<tr>
+						<th>Skill</th>
+						<th>SP</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Steal</td>
+						<td>2</td>
+						<td>Steal an item from a single foe.</td>
+					</tr>
+					<tr>
+						<td>Wildfire <img alt="Fire" class="wpn_img" src="fire.jpg" title="Fire"></td>
+						<td>7</td>
+						<td>Deal heavy fire damage to a single foe.</td>
+					</tr>
+					<tr>
+						<td>HP Thief <img alt="Dagger" class="wpn_img" src="Daggers.png" title="Dagger"></td>
+						<td>6</td>
+						<td>Attack a single foe twice with a dagger, and steal HP equivalent to half of the damage dealt.</td>
+					</tr>
+					<tr>
+						<td>Shackle Foe</td>
+						<td>4</td>
+						<td>Reduce a single foe's physical attack strength for 2 turns.</td>
+					</tr>
+					<tr>
+						<td>Armor Corrosive</td>
+						<td>4</td>
+						<td>Reduce a single foe's physical defense for 2 turns.</td>
+					</tr>
+					<tr>
+						<td>Steal SP <img alt="Dagger" class="wpn_img" src="Daggers.png" title="Dagger"></td>
+						<td>6</td>
+						<td>Attack a single foe twice with a dagger and steal SP equivalent to 5% of damage dealt.</td>
+					</tr>
+					<tr>
+						<td>Share SP</td>
+						<td>-</td>
+						<td>Bestow SP equivalent to 50% of one's current SP to a single ally.</td>
+					</tr>
+					<tr>
+						<td><b>Aeber's Reckoning <img alt="Dagger" class="wpn_img" src="Daggers.png" title="Dagger"></b></td>
+						<td>30</td>
+						<td>Attack all foes with a dagger, dealing damage proportional to your speed.</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="main__jobs">
+		<div class="job__copy">
+		<h3>Hunter</h3><img alt="Hunter" class="job__sprite" src="char-sprite-haanit.png"></div>
+		<div class="support__skills">
+			<table>
+				<thead>
+					<tr>
+						<th>Support Skill</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Heighten Senses</td>
+						<td>Attack random foes 5 to 8 times with a bow.</td>
+					</tr>
+					<tr>
+						<td>Eagle Eye</td>
+						<td>Deal critical damage with a bow to a single foe.</td>
+					</tr>
+					<tr>
+						<td>Second Serving</td>
+						<td>Deal heavy lightning damage to a single foe.</td>
+					</tr>
+					<tr>
+						<td>Patience</td>
+						<td>Cause a single foe to act at the end of the turn for 2 turns.</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="skills">
+			<table>
+				<thead>
+					<tr>
+						<th>Skill</th>
+						<th>SP</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Rain of Arrows <img alt="Bow" class="wpn_img" src="Bows.png" title="Bow"></td>
+						<td>8</td>
+						<td>Attack random foes 5 to 8 times with a bow.</td>
+					</tr>
+					<tr>
+						<td>True Strike <img alt="Bow" class="wpn_img" src="Bows.png" title="Bow"></td>
+						<td>10</td>
+						<td>Deal critical damage with a bow to a single foe.</td>
+					</tr>
+					<tr>
+						<td>Thunderbird <img alt="Lightning" class="wpn_img" src="lightning.jpg" title="Lightning"></td>
+						<td>7</td>
+						<td>Deal heavy lightning damage to a single foe.</td>
+					</tr>
+					<tr>
+						<td>Leghold Trap</td>
+						<td>6</td>
+						<td>Cause a single foe to act at the end of the turn for 2 turns.</td>
+					</tr>
+					<tr>
+						<td>Mercy Strike <img alt="Bow" class="wpn_img" src="Bows.png" title="Bow"></td>
+						<td>4</td>
+						<td>Attack a single foe with a bow. Otherwise lethal attacks will instead leave the target with 1 HP.</td>
+					</tr>
+					<tr>
+						<td>Arrowstorm <img alt="Bow" class="wpn_img" src="Bows.png" title="Bow"></td>
+						<td>24</td>
+						<td>Attack all foes 5 to 8 times with a bow.</td>
+					</tr>
+					<tr>
+						<td>Take Aim</td>
+						<td>8</td>
+						<td>Increase all allies' critical rate and accuracy for 2 turns.</td>
+					</tr>
+					<tr>
+						<td><b>Draefendi's Rage <img alt="Bow" class="wpn_img" src="Bows.png" title="Bow"></b></td>
+						<td>30</td>
+						<td>Unleash a highly powerful bow attack on all foes.</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		
+	</div>
+	<div class="main__footer">
+		<p>Octopath Project is not affiliated with Square Enix. All materials are the property of SQUARE ENIX CO., LTD. All Rights Reserved.</p>
+	</div>
+</body>
+</html>

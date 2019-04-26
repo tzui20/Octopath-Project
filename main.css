@@ -224,8 +224,8 @@ h3 {
 .main__jobs {
    display: flex;
    flex-wrap: wrap;
-    width: 50%;
-    justify-content: space-evenly;
+   width: 50%;
+   justify-content: space-evenly;
    margin: auto;
    margin-top: 30px;
    margin-bottom: 30px;
@@ -308,7 +308,8 @@ td {
 }
 
 .attributes {
-    padding: 1.5rem 0rem;
+   padding: 1.5rem 0rem;
+   font-family: Gal;
 }
 
 .main__footer {

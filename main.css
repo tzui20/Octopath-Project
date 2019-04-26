@@ -6,6 +6,8 @@
 * {
    margin: 0;
    padding: 0;
+  -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
 }
 
 html,
@@ -17,7 +19,6 @@ body {
    box-sizing: border-box;
    background-image: url(worldmap.jpg);
    background-size: cover;
-   -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
 }
 
@@ -203,6 +204,10 @@ h3 {
    margin-bottom: 5px;
 }
 
+.job__copy h3 {
+    font-size: 30px;
+}
+
 .opposite {
    flex-direction: row-reverse;
 }
@@ -225,7 +230,7 @@ h3 {
    display: flex;
    flex-wrap: wrap;
    width: 50%;
-   justify-content: space-evenly;
+   justify-content: space-between;
    margin: auto;
    margin-top: 30px;
    margin-bottom: 30px;
@@ -245,13 +250,13 @@ h3 {
 }
 
 .skills {
-   padding: 1rem;
+    padding: 0rem 1rem;
    width: -webkit-fill-available;
    font-family: Gal;
 }
 
 .job__sprite {
-   padding: 2rem 0rem;
+    padding: 2rem 2rem;
 }
 
 .job__copy {
@@ -276,8 +281,14 @@ td {
    background-color: gainsboro;
 }
 
+td .wpn_img {
+    position: relative;
+    top: 5px;
+    left: 7px;
+}
+
 .support__skills {
-   padding: 1rem;
+    padding: 0.3rem 1rem 1rem;
    width: -webkit-fill-available;
    font-family: Gal;
 }
@@ -308,8 +319,13 @@ td {
 }
 
 .attributes {
-   padding: 1.5rem 0rem;
+    padding: 1.5rem 1rem;
    font-family: Gal;
+   width: 145px;
+}
+
+.attributes .content {
+  padding: 0;
 }
 
 .main__footer {

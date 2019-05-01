@@ -7,6 +7,7 @@
    </script>
 </head>
 <body>
+   <a id="top" name="top"></a>
    <div class="nav__logo">
       <a href="main.html"><img alt="Octopath Traveler Logo" class="logo" src="logo.svg"></a>
    </div>
@@ -15,7 +16,7 @@
          <img class="list__logo" src="sun.png"><a href="travelers.html">Travelers</a>
       </div>
       <div class="nav__item">
-         <img class="list__logo" src="moon.png"><a href="jobs.html">Jobs</a>
+         <img class="list__logo" src="moon.png"><a href="jobs.html">Job Classes</a>
       </div>
       <div class="nav__item">
          <img class="list__logo" src="sun.png">Locations
@@ -24,992 +25,1510 @@
          <img class="list__logo" src="moon.png">Skills
       </div>
    </div>
-<div class="all__jobs">
-   <div class="main__jobs">
-      <div class="job__copy">
-      <h3>Cleric</h3><img alt="Cleric" class="job__sprite" src="char-sprite-ophilia.png"></div>
-      <div class="attributes">
-         <button class="collapsible">Attributes</button>
-         <table class="content">
-            <thead>
-               <tr>
-                  <th colspan="2">Attribute Bonus</th>
-               </tr>
-            </thead>
-            <tr>
-               <td>Elemental Attack</td>
-               <td>5%</td>
-            </tr>
-            <tr>
-               <td>Elemental Defense</td>
-               <td>5%</td>
-            </tr>
-            <tr>
-               <td>Max SP</td>
-               <td>5%</td>
-            </tr>
-         </table>
-      </div>
-      <div class="skills">
-         <button class="collapsible">Skills</button>
-         <table class="content">
-            <thead>
-               <tr>
-                  <th>Skill</th>
-                  <th>SP</th>
-                  <th>Type</th>
-                  <th>Description</th>
-               </tr>
-            </thead>
-            <tr>
-               <td>Heal Wounds</td>
-               <td>8</td>
-               <td></td>
-               <td>Restore HP to all allies.</td>
-            </tr>
-            <tr>
-               <td>Holy Light</td>
-               <td>6</td>
-               <td><img alt="Light" class="wpn_img" src="light.jpg" title="Light"></td>
-               <td>Inflict light-based damage on a single foe.</td>
-            </tr>
-            <tr>
-               <td>Sheltering Light</td>
-               <td>6</td>
-               <td></td>
-               <td>Augment on ally's elemental defense for 2 turns.</td>
-            </tr>
-            <tr>
-               <td>Luminescence</td>
-               <td>9</td>
-               <td> <img alt="Light" class="wpn_img" src="light.jpg" title="Light"></td>
-               <td>Deal light-based damage to all foes.</td>
-            </tr>
-            <tr>
-               <td>Heal More</td>
-               <td>25</td>
-               <td></td>
-               <td>Restore a large amount of HP to all allies.</td>
-            </tr>
-            <tr>
-               <td>Reflective Veil</td>
-               <td>22</td>
-               <td></td>
-               <td>Grant a single ally the ability to reflect one elemental attack.</td>
-            </tr>
-            <tr>
-               <td>Revive</td>
-               <td>50</td>
-               <td></td>
-               <td>Revive all incapacitated allies.</td>
-            </tr>
-            <tr>
-               <td><b>Aelfric's Auspices</b></td>
-               <td>30</td>
-               <td></td>
-               <td>For 3 turns, skills performed by a single chosen ally will trigger twice (this will not effect other
-               divine skills).</td>
-            </tr>
-         </table>
-      </div>
-      <div class="support__skills">
-         <button class="collapsible">Support Skills</button>
-         <table class="content">
-            <thead>
-               <tr>
-                  <th>Name</th>
-                  <th>Description</th>
-               </tr>
-            </thead>
-            <tr>
-               <td>Evil Ward</td>
-               <td>Increases success rate when trying to flee.</td>
-            </tr>
-            <tr>
-               <td>Inner Strength</td>
-               <td>Increases SP by 50.</td>
-            </tr>
-            <tr>
-               <td>Persistence</td>
-               <td>Increases status-enhancing buff length by one turn.</td>
-            </tr>
-            <tr>
-               <td>Saving Grace</td>
-               <td>Allows the equipped character to be healed above their max HP.</td>
-            </tr>
-         </table>
-      </div>
+   <div class="page__title">
+      <h1>Basic Job Classes</h1>
    </div>
-   <div class="main__jobs">
-      <div class="job__copy">
-      <h3>Scholar</h3><img alt="Scholar" class="job__sprite" src="char-sprite-cyrus.png"></div>
-      <div class="attributes">
-         <button class="collapsible">Attributes</button>
-         <table class="content">
-            <thead>
+   <div class="all__jobs">
+      <div class="main__jobs">
+         <div class="job__copy">
+         <h3>Cleric</h3><img alt="Cleric" class="job__sprite" src="cleric.png"></div>
+         <div class="attributes">
+            <button class="collapsible">Attributes</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th colspan="2">Attribute Bonus</th>
+                  </tr>
+               </thead>
                <tr>
-                  <th colspan="2">Attribute Bonus</th>
+                  <td>Elemental Attack</td>
+                  <td>5%</td>
                </tr>
-            </thead>
-            <tr>
-               <td>Elemental Attack</td>
-               <td>10%</td>
-            </tr>
-            <tr>
-               <td>Elemental Defense</td>
-               <td>5%</td>
-            </tr>
-            <tr>
-               <td>Max SP</td>
-               <td>13%</td>
-            </tr>
-         </table>
-      </div>
-      <div class="skills">
-         <button class="collapsible">Skills</button>
-         <table class="content">
-            <thead>
                <tr>
-                  <th>Skill</th>
-                  <th>SP</th>
-                  <th>Type</th>
-                  <th>Description</th>
+                  <td>Elemental Defense</td>
+                  <td>5%</td>
                </tr>
-            </thead>
-            <tbody>
                <tr>
-                  <td>Fireball </td>
+                  <td>Max SP</td>
+                  <td>5%</td>
+               </tr>
+            </table>
+         </div>
+         <div class="skills">
+            <button class="collapsible">Skills</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th>Skill</th>
+                     <th>SP</th>
+                     <th>Type</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tr>
+                  <td>Heal Wounds</td>
                   <td>8</td>
-                  <td><img alt="Fire" class="wpn_img" src="fire.jpg" title="Fire"></td>
-                  <td>Deal fire damage to all foes.</td>
-               </tr>
-               <tr>
-                  <td>Icewind </td>
-                  <td>8</td>
-                  <td><img alt="Ice" class="wpn_img" src="ice.jpg" title="Ice"></td>
-                  <td>Deal ice damage to all foes.</td>
-               </tr>
-               <tr>
-                  <td>Lightning Bolt </td>
-                  <td>8</td>
-                  <td><img alt="Lightning" class="wpn_img" src="lightning.jpg" title="Lightning"></td>
-                  <td>Deal lightning damage to all foes.</td>
-               </tr>
-               <tr>
-                  <td>Analyze</td>
-                  <td>1</td>
                   <td></td>
-                  <td>Reveal the HP and one weakness of a single foe.</td>
+                  <td>Restore HP to all allies.</td>
                </tr>
                <tr>
-                  <td>Fire Storm </td>
-                  <td>22</td>
-                  <td><img alt="Fire" class="wpn_img" src="fire.jpg" title="Fire"></td>
-                  <td>Deal fire damage to all foes twice.</td>
-               </tr>
-               <tr>
-                  <td>Blizzard </td>
-                  <td>22</td>
-                  <td><img alt="Ice" class="wpn_img" src="ice.jpg" title="Ice"></td>
-                  <td>Deal ice damage to all foes twice.</td>
-               </tr>
-               <tr>
-                  <td>Lightning Blast </td>
-                  <td>22</td>
-                  <td><img alt="Lightning" class="wpn_img" src="lightning.jpg" title="Lightning"></td>
-                  <td>Deal lightning damage to all foes twice.</td>
-               </tr>
-               <tr>
-                  <td><b>Alephan's Enlightenment</b></td>
-                  <td>30</td>
-                  <td></td>
-                  <td>For 3 turns, spells cast by a single chosen ally that usually target all foes will instead be
-                  focused on a single foe at increased intensity.</td>
-               </tr>
-            </tbody>
-         </table>
-      </div>
-      <div class="support__skills">
-         <button class="collapsible">Support Skills</button>
-         <table class="content">
-            <thead>
-               <tr>
-                  <th>Support Skill</th>
-                  <th>Description</th>
-               </tr>
-            </thead>
-            <tbody>
-               <tr>
-                  <td>Elemental Augmentation</td>
-                  <td>Boosts elemental attack strength by 50.</td>
-               </tr>
-               <tr>
-                  <td>Evasive Manuvers</td>
-                  <td>Less random encounters.</td>
-               </tr>
-               <tr>
-                  <td>Percipience</td>
-                  <td>Prevents enemies from surprise attacking the party.</td>
-               </tr>
-               <tr>
-                  <td>Vim and Vigor</td>
-                  <td>Regenerate a small amount of HP each turn.</td>
-               </tr>
-            </tbody>
-         </table>
-      </div>
-   </div>
-   <div class="main__jobs">
-      <div class="job__copy">
-      <h3>Merchant</h3><img alt="Merchant" class="job__sprite" src="char-sprite-tressa.png"></div>
-      <div class="attributes">
-         <button class="collapsible">Attributes</button>
-         <table class="content">
-            <thead>
-               <tr>
-                  <th colspan="2">Attribute Bonus</th>
-               </tr>
-            </thead>
-            <tr>
-               <td>Elemental Attack</td>
-               <td>3%</td>
-            </tr>
-            <tr>
-               <td>Elemental Defense</td>
-               <td>3%</td>
-            </tr>
-            <tr>
-               <td>Max HP</td>
-               <td>8%</td>
-            </tr>
-            <tr>
-               <td>Max SP</td>
-               <td>8%</td>
-            </tr>
-            <tr>
-               <td>Physical Attack</td>
-               <td>3%</td>
-            </tr>
-            <tr>
-               <td>Physical Defense</td>
-               <td>3%</td>
-            </tr>
-         </table>
-      </div>
-      <div class="skills">
-         <button class="collapsible">Skills</button>
-         <table class="content">
-            <thead>
-               <tr>
-                  <th>Skill</th>
-                  <th>SP</th>
-                  <th>Type</th>
-                  <th>Description</th>
-               </tr>
-            </thead>
-            <tbody>
-               <tr>
-                  <td>Collect</td>
-                  <td>2</td>
-                  <td></td>
-                  <td>Collect money from a single foe.</td>
-               </tr>
-               <tr>
-                  <td>Tradewinds </td>
-                  <td>7</td>
-                  <td><img alt="Wind" class="wpn_img" src="wind.jpg" title="Wind"></td>
-                  <td>Deal heavy wind damage to a single foe.</td>
-               </tr>
-               <tr>
-                  <td>Rest</td>
-                  <td>-</td>
-                  <td></td>
-                  <td>Restore one's own HP and SP, and cure status ailments.</td>
-               </tr>
-               <tr>
-                  <td>Trade Tempest </td>
-                  <td>10</td>
-                  <td><img alt="Wind" class="wpn_img" src="wind.jpg" title="Wind"></td>
-                  <td>Deal wind damage to all foes.</td>
-               </tr>
-               <tr>
-                  <td>Donate BP</td>
-                  <td>3</td>
-                  <td></td>
-                  <td>Grant 1 BP to an ally.</td>
-               </tr>
-               <tr>
-                  <td>Sidestep</td>
-                  <td>10</td>
-                  <td></td>
-                  <td>Dodge a single physical attack with a 100% success rate.</td>
-               </tr>
-               <tr>
-                  <td>Hired Help</td>
-                  <td>-</td>
-                  <td><img alt="Wind" class="wpn_img" src="Swords.png" title="Wind"><img alt="Wind" class="wpn_img" src=
-                  "Daggers.png" title="Wind"><img alt="Wind" class="wpn_img" src="Axes.png" title="Wind"><img alt=
-                  "Wind" class="wpn_img" src="light.jpg" title="Wind"></td>
-                  <td>Pay money to summon hired help to the battlefield.</td>
-               </tr>
-               <tr>
-                  <td><b>Bifelgan's Bounty</b></td>
-                  <td>30</td>
-                  <td></td>
-                  <td>Unleash a non-elemental attack on a single foe and receive money equivalent to the damage
-                  dealt.</td>
-               </tr>
-            </tbody>
-         </table>
-      </div>
-      <div class="support__skills">
-         <button class="collapsible">Support Skills</button>
-         <table class="content">
-            <thead>
-               <tr>
-                  <th>Support Skill</th>
-                  <th>Description</th>
-               </tr>
-            </thead>
-            <tbody>
-               <tr>
-                  <td>Endless Items</td>
-                  <td>When you use an item there is a 25% chance that it won’t actually be consumed.</td>
-               </tr>
-               <tr>
-                  <td>Grows on Trees</td>
-                  <td>Get additional money after a battle.</td>
-               </tr>
-               <tr>
-                  <td>Hang Tough</td>
-                  <td>If not in near-death status, any attack that would knock the character out instead leaves them
-                  with 1 HP.</td>
-               </tr>
-               <tr>
-                  <td>SP Saver</td>
-                  <td>Character will use half the SP they usually would.</td>
-               </tr>
-            </tbody>
-         </table>
-      </div>
-   </div>
-   <div class="main__jobs">
-      <div class="job__copy">
-      <h3>Warrior</h3><img alt="Warrior" class="job__sprite" src="char-sprite-olberic.png"></div>
-      <div class="attributes">
-         <button class="collapsible">Attributes</button>
-         <table class="content">
-            <thead>
-               <tr>
-                  <th colspan="2">Attribute Bonus</th>
-               </tr>
-            </thead>
-            <tr>
-               <td>Max HP</td>
-               <td>18%</td>
-            </tr>
-            <tr>
-               <td>Physical Attack</td>
-               <td>5%</td>
-            </tr>
-            <tr>
-               <td>Physical Defense</td>
-               <td>5%</td>
-            </tr>
-         </table>
-      </div>
-      <div class="skills">
-         <button class="collapsible">Skills</button>
-         <table class="content">
-            <thead>
-               <tr>
-                  <th>Skill</th>
-                  <th>SP</th>
-                  <th>Type</th>
-                  <th>Description</th>
-               </tr>
-            </thead>
-            <tbody>
-               <tr>
-                  <td>Level Slash</td>
-                  <td>9</td>
-                  <td> <img alt="Sword" class="wpn_img" src="Swords.png" title="Sword"></td>
-                  <td>Attack all foes with a sword.</td>
-               </tr>
-               <tr>
-                  <td>Abide</td>
-                  <td>4</td>
-                  <td></td>
-                  <td>Increase the user's physical attack strength for 3 turns.</td>
-               </tr>
-               <tr>
-                  <td>Spearhead</td>
+                  <td>Holy Light</td>
                   <td>6</td>
-                  <td> <img alt="Spear" class="wpn_img" src="Polearms.png" title="Spear"></td>
-                  <td>Attack a single foe with a polearm, and act earlier on your next turn.</td>
+                  <td><img alt="Light" class="wpn_img" src="light.jpg" title="Light"></td>
+                  <td>Inflict light-based damage on a single foe.</td>
                </tr>
                <tr>
-                  <td>Incite</td>
-                  <td>4</td>
+                  <td>Sheltering Light</td>
+                  <td>6</td>
                   <td></td>
-                  <td>Become more readily targeted by foes for 3 turns.</td>
+                  <td>Augment on ally's elemental defense for 2 turns.</td>
                </tr>
                <tr>
-                  <td>Cross Strike</td>
-                  <td>12</td>
-                  <td> <img alt="Sword" class="wpn_img" src="Swords.png" title="Sword"></td>
-                  <td>Unleash a sword attack on a single foe.</td>
+                  <td>Luminescence</td>
+                  <td>9</td>
+                  <td><img alt="Light" class="wpn_img" src="light.jpg" title="Light"></td>
+                  <td>Deal light-based damage to all foes.</td>
                </tr>
                <tr>
-                  <td>Stout Wall</td>
-                  <td>4</td>
-                  <td></td>
-                  <td>Increase the user's physical defense for 3 turns.</td>
-               </tr>
-               <tr>
-                  <td>Thousand Spears </td>
-                  <td>20</td>
-                  <td><img alt="Spear" class="wpn_img" src="Polearms.png" title="Spear"></td>
-                  <td>Attack random foes with a polearm 5 to 10 times.</td>
-               </tr>
-               <tr>
-                  <td><b>Brand's Thunder </b></td>
-                  <td>30</td>
-                  <td><img alt="Sword" class="wpn_img" src="Swords.png" title="Sword"></td>
-                  <td>Unleash a tremendously powerful sword attack on a single foe.</td>
-               </tr>
-            </tbody>
-         </table>
-      </div>
-      <div class="support__skills">
-         <button class="collapsible">Support Skills</button>
-         <table class="content">
-            <thead>
-               <tr>
-                  <th>Support Skill</th>
-                  <th>Description</th>
-               </tr>
-            </thead>
-            <tbody>
-               <tr>
-                  <td>Cover</td>
-                  <td>The equipping character will absorb single-targeted damage for allies who are near death.</td>
-               </tr>
-               <tr>
-                  <td>Summon Strength</td>
-                  <td>Increases the physical attack strength of the equpping character by 50.</td>
-               </tr>
-               <tr>
-                  <td>Endure</td>
-                  <td>When the equipping character is inflicted with poison, sleep, confusion, blindness, silence,
-                  terror, or unconciousness, their physical and elemental defenses are enhanced.</td>
-               </tr>
-               <tr>
-                  <td>Surpassing Power</td>
-                  <td>Increases the maximum damage that can be dealth by the equpping character to 99,999.</td>
-               </tr>
-            </tbody>
-         </table>
-      </div>
-   </div>
-   <div class="main__jobs">
-      <div class="job__copy">
-      <h3>Dancer</h3><img alt="Dancer" class="job__sprite" src="char-sprite-primrose.png"></div>
-      <div class="attributes">
-         <button class="collapsible">Attributes</button>
-         <table class="content">
-            <thead>
-               <tr>
-                  <th colspan="2">Attribute Bonus</th>
-               </tr>
-            </thead>
-            <tr>
-               <td>Elemental Attack</td>
-               <td>8%</td>
-            </tr>
-            <tr>
-               <td>Evasion</td>
-               <td>10%</td>
-            </tr>
-            <tr>
-               <td>Speed</td>
-               <td>10%</td>
-            </tr>
-         </table>
-      </div>
-      <div class="skills">
-         <button class="collapsible">Skills</button>
-         <table class="content">
-            <thead>
-               <tr>
-                  <th>Skill</th>
-                  <th>SP</th>
-                  <th>Type</th>
-                  <th>Description</th>
-               </tr>
-            </thead>
-            <tbody>
-               <tr>
-                  <td>Lion Dance</td>
-                  <td>4</td>
-                  <td></td>
-                  <td>One ally's physical attacks become more powerful for 2 turns.</td>
-               </tr>
-               <tr>
-                  <td>Moonlight Waltz </td>
-                  <td>7</td>
-                  <td><img alt="Darkness" class="wpn_img" src="darkness.jpg" title="Darkness"></td>
-                  <td>Deal heavy dark damage to a single foe.</td>
-               </tr>
-               <tr>
-                  <td>Peacock Strut</td>
-                  <td>4</td>
-                  <td></td>
-                  <td>Augment a single ally's elemental attacks for 2 turns.</td>
-               </tr>
-               <tr>
-                  <td>Mole Dance</td>
-                  <td>4</td>
-                  <td></td>
-                  <td>Augment a single ally's physical defense for 2 turns.</td>
-               </tr>
-               <tr>
-                  <td>Night Ode </td>
-                  <td>10</td>
-                  <td><img alt="Darkness" class="wpn_img" src="darkness.jpg" title="Darkness"></td>
-                  <td>Deal dark damage to all foes.</td>
-               </tr>
-               <tr>
-                  <td>Panther Dance</td>
-                  <td>4</td>
-                  <td></td>
-                  <td>Increase a single ally's speed for 2 turns.</td>
-               </tr>
-               <tr>
-                  <td>Bewildering Grace</td>
+                  <td>Heal More</td>
                   <td>25</td>
                   <td></td>
-                  <td>Cause a curious effect to occur one time.</td>
+                  <td>Restore a large amount of HP to all allies.</td>
                </tr>
                <tr>
-                  <td><b>Sealticge's Seduction</b></td>
+                  <td>Reflective Veil</td>
+                  <td>22</td>
+                  <td></td>
+                  <td>Grant a single ally the ability to reflect one elemental attack.</td>
+               </tr>
+               <tr>
+                  <td>Revive</td>
+                  <td>50</td>
+                  <td></td>
+                  <td>Revive all incapacitated allies.</td>
+               </tr>
+               <tr>
+                  <td><b>Aelfric's Auspices</b></td>
                   <td>30</td>
                   <td></td>
-                  <td>For 3 turns, skills performed by a single ally that usually target one foe will affect all foes
-                  instead (this will not affect divine skills).</td>
+                  <td>For 3 turns, skills performed by a single chosen ally will trigger twice (this will not effect
+                  other divine skills).</td>
                </tr>
-            </tbody>
-         </table>
+            </table>
+         </div>
+         <div class="support__skills">
+            <button class="collapsible">Support Skills</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th>Name</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tr>
+                  <td>Evil Ward</td>
+                  <td>Increases success rate when trying to flee.</td>
+               </tr>
+               <tr>
+                  <td>Inner Strength</td>
+                  <td>Increases SP by 50.</td>
+               </tr>
+               <tr>
+                  <td>Persistence</td>
+                  <td>Increases status-enhancing buff length by one turn.</td>
+               </tr>
+               <tr>
+                  <td>Saving Grace</td>
+                  <td>Allows the equipped character to be healed above their max HP.</td>
+               </tr>
+            </table>
+         </div>
       </div>
-      <div class="support__skills">
-         <button class="collapsible">Support Skills</button>
-         <table class="content">
-            <thead>
+      <div class="main__jobs">
+         <div class="job__copy">
+         <h3>Scholar</h3><img alt="Scholar" class="job__sprite" src="scholar.png"></div>
+         <div class="attributes">
+            <button class="collapsible">Attributes</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th colspan="2">Attribute Bonus</th>
+                  </tr>
+               </thead>
                <tr>
-                  <th>Support Skill</th>
-                  <th>Description</th>
-               </tr>
-            </thead>
-            <tbody>
-               <tr>
-                  <td>The Show Goes On</td>
-                  <td>Status augmentations you grant to allies will persist for one additional turn.</td>
-               </tr>
-               <tr>
-                  <td>Eye for an Eye</td>
-                  <td>Gain a 50% chance of counterattacking after being targeted by a physical attack.</td>
+                  <td>Elemental Attack</td>
+                  <td>10%</td>
                </tr>
                <tr>
-                  <td>Second Wind</td>
-                  <td>Recover a certain amount of SP each turn.</td>
+                  <td>Elemental Defense</td>
+                  <td>5%</td>
                </tr>
                <tr>
-                  <td>Encore</td>
-                  <td>Once per battle, upon being incapacitated, you will recover with 25% of your maximum HP.</td>
+                  <td>Max SP</td>
+                  <td>13%</td>
                </tr>
-            </tbody>
-         </table>
+            </table>
+         </div>
+         <div class="skills">
+            <button class="collapsible">Skills</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th>Skill</th>
+                     <th>SP</th>
+                     <th>Type</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Fireball</td>
+                     <td>8</td>
+                     <td><img alt="Fire" class="wpn_img" src="fire.jpg" title="Fire"></td>
+                     <td>Deal fire damage to all foes.</td>
+                  </tr>
+                  <tr>
+                     <td>Icewind</td>
+                     <td>8</td>
+                     <td><img alt="Ice" class="wpn_img" src="ice.jpg" title="Ice"></td>
+                     <td>Deal ice damage to all foes.</td>
+                  </tr>
+                  <tr>
+                     <td>Lightning Bolt</td>
+                     <td>8</td>
+                     <td><img alt="Lightning" class="wpn_img" src="lightning.jpg" title="Lightning"></td>
+                     <td>Deal lightning damage to all foes.</td>
+                  </tr>
+                  <tr>
+                     <td>Analyze</td>
+                     <td>1</td>
+                     <td></td>
+                     <td>Reveal the HP and one weakness of a single foe.</td>
+                  </tr>
+                  <tr>
+                     <td>Fire Storm</td>
+                     <td>22</td>
+                     <td><img alt="Fire" class="wpn_img" src="fire.jpg" title="Fire"></td>
+                     <td>Deal fire damage to all foes twice.</td>
+                  </tr>
+                  <tr>
+                     <td>Blizzard</td>
+                     <td>22</td>
+                     <td><img alt="Ice" class="wpn_img" src="ice.jpg" title="Ice"></td>
+                     <td>Deal ice damage to all foes twice.</td>
+                  </tr>
+                  <tr>
+                     <td>Lightning Blast</td>
+                     <td>22</td>
+                     <td><img alt="Lightning" class="wpn_img" src="lightning.jpg" title="Lightning"></td>
+                     <td>Deal lightning damage to all foes twice.</td>
+                  </tr>
+                  <tr>
+                     <td><b>Alephan's Enlightenment</b></td>
+                     <td>30</td>
+                     <td></td>
+                     <td>For 3 turns, spells cast by a single chosen ally that usually target all foes will instead be
+                     focused on a single foe at increased intensity.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <div class="support__skills">
+            <button class="collapsible">Support Skills</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th>Support Skill</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Elemental Augmentation</td>
+                     <td>Boosts elemental attack strength by 50.</td>
+                  </tr>
+                  <tr>
+                     <td>Evasive Manuvers</td>
+                     <td>Less random encounters.</td>
+                  </tr>
+                  <tr>
+                     <td>Percipience</td>
+                     <td>Prevents enemies from surprise attacking the party.</td>
+                  </tr>
+                  <tr>
+                     <td>Vim and Vigor</td>
+                     <td>Regenerate a small amount of HP each turn.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+      <div class="main__jobs">
+         <div class="job__copy">
+         <h3>Merchant</h3><img alt="Merchant" class="job__sprite" src="merchant.png"></div>
+         <div class="attributes">
+            <button class="collapsible">Attributes</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th colspan="2">Attribute Bonus</th>
+                  </tr>
+               </thead>
+               <tr>
+                  <td>Elemental Attack</td>
+                  <td>3%</td>
+               </tr>
+               <tr>
+                  <td>Elemental Defense</td>
+                  <td>3%</td>
+               </tr>
+               <tr>
+                  <td>Max HP</td>
+                  <td>8%</td>
+               </tr>
+               <tr>
+                  <td>Max SP</td>
+                  <td>8%</td>
+               </tr>
+               <tr>
+                  <td>Physical Attack</td>
+                  <td>3%</td>
+               </tr>
+               <tr>
+                  <td>Physical Defense</td>
+                  <td>3%</td>
+               </tr>
+            </table>
+         </div>
+         <div class="skills">
+            <button class="collapsible">Skills</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th>Skill</th>
+                     <th>SP</th>
+                     <th>Type</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Collect</td>
+                     <td>2</td>
+                     <td></td>
+                     <td>Collect money from a single foe.</td>
+                  </tr>
+                  <tr>
+                     <td>Tradewinds</td>
+                     <td>7</td>
+                     <td><img alt="Wind" class="wpn_img" src="wind.jpg" title="Wind"></td>
+                     <td>Deal heavy wind damage to a single foe.</td>
+                  </tr>
+                  <tr>
+                     <td>Rest</td>
+                     <td>-</td>
+                     <td></td>
+                     <td>Restore one's own HP and SP, and cure status ailments.</td>
+                  </tr>
+                  <tr>
+                     <td>Trade Tempest</td>
+                     <td>10</td>
+                     <td><img alt="Wind" class="wpn_img" src="wind.jpg" title="Wind"></td>
+                     <td>Deal wind damage to all foes.</td>
+                  </tr>
+                  <tr>
+                     <td>Donate BP</td>
+                     <td>3</td>
+                     <td></td>
+                     <td>Grant 1 BP to an ally.</td>
+                  </tr>
+                  <tr>
+                     <td>Sidestep</td>
+                     <td>10</td>
+                     <td></td>
+                     <td>Dodge a single physical attack with a 100% success rate.</td>
+                  </tr>
+                  <tr>
+                     <td>Hired Help</td>
+                     <td>-</td>
+                     <td><img alt="Wind" class="wpn_img" src="Swords.png" title="Wind"><img alt="Wind" class="wpn_img"
+                     src="Daggers.png" title="Wind"><img alt="Wind" class="wpn_img" src="Axes.png" title=
+                     "Wind"><img alt="Wind" class="wpn_img" src="light.jpg" title="Wind"></td>
+                     <td>Pay money to summon hired help to the battlefield.</td>
+                  </tr>
+                  <tr>
+                     <td><b>Bifelgan's Bounty</b></td>
+                     <td>30</td>
+                     <td></td>
+                     <td>Unleash a non-elemental attack on a single foe and receive money equivalent to the damage
+                     dealt.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <div class="support__skills">
+            <button class="collapsible">Support Skills</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th>Support Skill</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Endless Items</td>
+                     <td>When you use an item there is a 25% chance that it won’t actually be consumed.</td>
+                  </tr>
+                  <tr>
+                     <td>Grows on Trees</td>
+                     <td>Get additional money after a battle.</td>
+                  </tr>
+                  <tr>
+                     <td>Hang Tough</td>
+                     <td>If not in near-death status, any attack that would knock the character out instead leaves them
+                     with 1 HP.</td>
+                  </tr>
+                  <tr>
+                     <td>SP Saver</td>
+                     <td>Character will use half the SP they usually would.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+      <div class="main__jobs">
+         <div class="job__copy">
+         <h3>Warrior</h3><img alt="Warrior" class="job__sprite" src="warrior.png"></div>
+         <div class="attributes">
+            <button class="collapsible">Attributes</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th colspan="2">Attribute Bonus</th>
+                  </tr>
+               </thead>
+               <tr>
+                  <td>Max HP</td>
+                  <td>18%</td>
+               </tr>
+               <tr>
+                  <td>Physical Attack</td>
+                  <td>5%</td>
+               </tr>
+               <tr>
+                  <td>Physical Defense</td>
+                  <td>5%</td>
+               </tr>
+            </table>
+         </div>
+         <div class="skills">
+            <button class="collapsible">Skills</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th>Skill</th>
+                     <th>SP</th>
+                     <th>Type</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Level Slash</td>
+                     <td>9</td>
+                     <td><img alt="Sword" class="wpn_img" src="Swords.png" title="Sword"></td>
+                     <td>Attack all foes with a sword.</td>
+                  </tr>
+                  <tr>
+                     <td>Abide</td>
+                     <td>4</td>
+                     <td></td>
+                     <td>Increase the user's physical attack strength for 3 turns.</td>
+                  </tr>
+                  <tr>
+                     <td>Spearhead</td>
+                     <td>6</td>
+                     <td><img alt="Spear" class="wpn_img" src="Polearms.png" title="Spear"></td>
+                     <td>Attack a single foe with a polearm, and act earlier on your next turn.</td>
+                  </tr>
+                  <tr>
+                     <td>Incite</td>
+                     <td>4</td>
+                     <td></td>
+                     <td>Become more readily targeted by foes for 3 turns.</td>
+                  </tr>
+                  <tr>
+                     <td>Cross Strike</td>
+                     <td>12</td>
+                     <td><img alt="Sword" class="wpn_img" src="Swords.png" title="Sword"></td>
+                     <td>Unleash a sword attack on a single foe.</td>
+                  </tr>
+                  <tr>
+                     <td>Stout Wall</td>
+                     <td>4</td>
+                     <td></td>
+                     <td>Increase the user's physical defense for 3 turns.</td>
+                  </tr>
+                  <tr>
+                     <td>Thousand Spears</td>
+                     <td>20</td>
+                     <td><img alt="Spear" class="wpn_img" src="Polearms.png" title="Spear"></td>
+                     <td>Attack random foes with a polearm 5 to 10 times.</td>
+                  </tr>
+                  <tr>
+                     <td><b>Brand's Thunder</b></td>
+                     <td>30</td>
+                     <td><img alt="Sword" class="wpn_img" src="Swords.png" title="Sword"></td>
+                     <td>Unleash a tremendously powerful sword attack on a single foe.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <div class="support__skills">
+            <button class="collapsible">Support Skills</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th>Support Skill</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Cover</td>
+                     <td>The equipping character will absorb single-targeted damage for allies who are near death.</td>
+                  </tr>
+                  <tr>
+                     <td>Summon Strength</td>
+                     <td>Increases the physical attack strength of the equpping character by 50.</td>
+                  </tr>
+                  <tr>
+                     <td>Endure</td>
+                     <td>When the equipping character is inflicted with poison, sleep, confusion, blindness, silence,
+                     terror, or unconciousness, their physical and elemental defenses are enhanced.</td>
+                  </tr>
+                  <tr>
+                     <td>Surpassing Power</td>
+                     <td>Increases the maximum damage that can be dealth by the equpping character to 99,999.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+      <div class="main__jobs">
+         <div class="job__copy">
+         <h3>Dancer</h3><img alt="Dancer" class="job__sprite" src="dancer.png"></div>
+         <div class="attributes">
+            <button class="collapsible">Attributes</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th colspan="2">Attribute Bonus</th>
+                  </tr>
+               </thead>
+               <tr>
+                  <td>Elemental Attack</td>
+                  <td>8%</td>
+               </tr>
+               <tr>
+                  <td>Evasion</td>
+                  <td>10%</td>
+               </tr>
+               <tr>
+                  <td>Speed</td>
+                  <td>10%</td>
+               </tr>
+            </table>
+         </div>
+         <div class="skills">
+            <button class="collapsible">Skills</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th>Skill</th>
+                     <th>SP</th>
+                     <th>Type</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Lion Dance</td>
+                     <td>4</td>
+                     <td></td>
+                     <td>One ally's physical attacks become more powerful for 2 turns.</td>
+                  </tr>
+                  <tr>
+                     <td>Moonlight Waltz</td>
+                     <td>7</td>
+                     <td><img alt="Darkness" class="wpn_img" src="darkness.jpg" title="Darkness"></td>
+                     <td>Deal heavy dark damage to a single foe.</td>
+                  </tr>
+                  <tr>
+                     <td>Peacock Strut</td>
+                     <td>4</td>
+                     <td></td>
+                     <td>Augment a single ally's elemental attacks for 2 turns.</td>
+                  </tr>
+                  <tr>
+                     <td>Mole Dance</td>
+                     <td>4</td>
+                     <td></td>
+                     <td>Augment a single ally's physical defense for 2 turns.</td>
+                  </tr>
+                  <tr>
+                     <td>Night Ode</td>
+                     <td>10</td>
+                     <td><img alt="Darkness" class="wpn_img" src="darkness.jpg" title="Darkness"></td>
+                     <td>Deal dark damage to all foes.</td>
+                  </tr>
+                  <tr>
+                     <td>Panther Dance</td>
+                     <td>4</td>
+                     <td></td>
+                     <td>Increase a single ally's speed for 2 turns.</td>
+                  </tr>
+                  <tr>
+                     <td>Bewildering Grace</td>
+                     <td>25</td>
+                     <td></td>
+                     <td>Cause a curious effect to occur one time.</td>
+                  </tr>
+                  <tr>
+                     <td><b>Sealticge's Seduction</b></td>
+                     <td>30</td>
+                     <td></td>
+                     <td>For 3 turns, skills performed by a single ally that usually target one foe will affect all
+                     foes instead (this will not affect divine skills).</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <div class="support__skills">
+            <button class="collapsible">Support Skills</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th>Support Skill</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>The Show Goes On</td>
+                     <td>Status augmentations you grant to allies will persist for one additional turn.</td>
+                  </tr>
+                  <tr>
+                     <td>Eye for an Eye</td>
+                     <td>Gain a 50% chance of counterattacking after being targeted by a physical attack.</td>
+                  </tr>
+                  <tr>
+                     <td>Second Wind</td>
+                     <td>Recover a certain amount of SP each turn.</td>
+                  </tr>
+                  <tr>
+                     <td>Encore</td>
+                     <td>Once per battle, upon being incapacitated, you will recover with 25% of your maximum HP.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+      <div class="main__jobs">
+         <div class="job__copy">
+         <h3>Apothecary</h3><img alt="Apothecary" class="job__sprite" src="apothecary.png"></div>
+         <div class="attributes">
+            <button class="collapsible">Attributes</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th colspan="2">Attribute Bonus</th>
+                  </tr>
+               </thead>
+               <tr>
+                  <td>Critical</td>
+                  <td>1.5%</td>
+               </tr>
+               <tr>
+                  <td>Elemental Attack</td>
+                  <td>1.5%</td>
+               </tr>
+               <tr>
+                  <td>Max HP</td>
+                  <td>20%</td>
+               </tr>
+               <tr>
+                  <td>Physical Attack</td>
+                  <td>1.5%</td>
+               </tr>
+               <tr>
+                  <td>Physical Defense</td>
+                  <td>1.5%</td>
+               </tr>
+            </table>
+         </div>
+         <div class="skills">
+            <button class="collapsible">Skills</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th>Skill</th>
+                     <th>SP</th>
+                     <th>Type</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>First Aid</td>
+                     <td>4</td>
+                     <td></td>
+                     <td>Restore HP to a single ally.</td>
+                  </tr>
+                  <tr>
+                     <td>Icicle</td>
+                     <td>7</td>
+                     <td><img alt="Ice" class="wpn_img" src="ice.jpg" title="Ice"></td>
+                     <td>Deal ice damage to a single foe.</td>
+                  </tr>
+                  <tr>
+                     <td>Rehabilitate</td>
+                     <td>10</td>
+                     <td></td>
+                     <td>Cure a single ally of all status ailments, and render them immune to further ailments for 2
+                     turns.</td>
+                  </tr>
+                  <tr>
+                     <td>Amputation</td>
+                     <td>8</td>
+                     <td><img alt="Axe" class="wpn_img" src="Axes.png" title="Axe"></td>
+                     <td>Unleash an axe attack on a single foe.</td>
+                  </tr>
+                  <tr>
+                     <td>Empoison</td>
+                     <td>6</td>
+                     <td></td>
+                     <td>Poison a single foe for 2 turns.</td>
+                  </tr>
+                  <tr>
+                     <td>Vivify</td>
+                     <td>16</td>
+                     <td></td>
+                     <td>Revive a single incapacitated ally.</td>
+                  </tr>
+                  <tr>
+                     <td>Last Stand</td>
+                     <td>16</td>
+                     <td><img alt="Axe" class="wpn_img" src="Axes.png" title="Axe"></td>
+                     <td>Attack all foes with an axe, dealing damage inversely proportional to your current HP.</td>
+                  </tr>
+                  <tr>
+                     <td><b>Dohter's Charity</b></td>
+                     <td>30</td>
+                     <td></td>
+                     <td>For 3 turns, items used by a single chosen ally will affect all.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <div class="support__skills">
+            <button class="collapsible">Support Skills</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th>Support Skill</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Inspiration</td>
+                     <td>With each successful standard attack, gain SP equal to 1% of the damage you deal.</td>
+                  </tr>
+                  <tr>
+                     <td>Hale and Hearty</td>
+                     <td>Increases maximum HP by 500.</td>
+                  </tr>
+                  <tr>
+                     <td>Resist Ailments</td>
+                     <td>Improves resistance to poison, sleep, confusion, blindness, silence, terror, and
+                     unconsciousness.</td>
+                  </tr>
+                  <tr>
+                     <td>Heightened Healing</td>
+                     <td>Gain an additional 30% HP or SP when being healed or restored.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+      <div class="main__jobs">
+         <div class="job__copy">
+         <h3>Thief</h3><img alt="Thief" class="job__sprite" src="thief.png"></div>
+         <div class="attributes">
+            <button class="collapsible">Attributes</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th colspan="2">Attribute Bonus</th>
+                  </tr>
+               </thead>
+               <tr>
+                  <td>Accuracy</td>
+                  <td>5%</td>
+               </tr>
+               <tr>
+                  <td>Critical</td>
+                  <td>5%</td>
+               </tr>
+               <tr>
+                  <td>Evasion</td>
+                  <td>8%</td>
+               </tr>
+               <tr>
+                  <td>Physical Attack</td>
+                  <td>2%</td>
+               </tr>
+               <tr>
+                  <td>Speed</td>
+                  <td>8%</td>
+               </tr>
+            </table>
+         </div>
+         <div class="skills">
+            <button class="collapsible">Skills</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th>Skill</th>
+                     <th>SP</th>
+                     <th>Type</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Steal</td>
+                     <td>2</td>
+                     <td></td>
+                     <td>Steal an item from a single foe.</td>
+                  </tr>
+                  <tr>
+                     <td>Wildfire</td>
+                     <td>7</td>
+                     <td><img alt="Fire" class="wpn_img" src="fire.jpg" title="Fire"></td>
+                     <td>Deal heavy fire damage to a single foe.</td>
+                  </tr>
+                  <tr>
+                     <td>HP Thief</td>
+                     <td>6</td>
+                     <td><img alt="Dagger" class="wpn_img" src="Daggers.png" title="Dagger"></td>
+                     <td>Attack a single foe twice with a dagger, and steal HP equivalent to half of the damage
+                     dealt.</td>
+                  </tr>
+                  <tr>
+                     <td>Shackle Foe</td>
+                     <td>4</td>
+                     <td></td>
+                     <td>Reduce a single foe's physical attack strength for 2 turns.</td>
+                  </tr>
+                  <tr>
+                     <td>Armor Corrosive</td>
+                     <td>4</td>
+                     <td></td>
+                     <td>Reduce a single foe's physical defense for 2 turns.</td>
+                  </tr>
+                  <tr>
+                     <td>Steal SP</td>
+                     <td>6</td>
+                     <td><img alt="Dagger" class="wpn_img" src="Daggers.png" title="Dagger"></td>
+                     <td>Attack a single foe twice with a dagger and steal SP equivalent to 5% of damage dealt.</td>
+                  </tr>
+                  <tr>
+                     <td>Share SP</td>
+                     <td>-</td>
+                     <td></td>
+                     <td>Bestow SP equivalent to 50% of one's current SP to a single ally.</td>
+                  </tr>
+                  <tr>
+                     <td><b>Aeber's Reckoning</b></td>
+                     <td>30</td>
+                     <td><img alt="Dagger" class="wpn_img" src="Daggers.png" title="Dagger"></td>
+                     <td>Attack all foes with a dagger, dealing damage proportional to your speed.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <div class="support__skills">
+            <button class="collapsible">Support Skills</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th>Support Skill</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Incidental Attack</td>
+                     <td>When using a non-damaging skill on a foe, there is a 50% chance you will attack as well.</td>
+                  </tr>
+                  <tr>
+                     <td>Fleetfoot</td>
+                     <td>Increases the equipping character's speed by 50.</td>
+                  </tr>
+                  <tr>
+                     <td>Snatch</td>
+                     <td>The Equipping character will receive double the loot when using steal or collect skills.</td>
+                  </tr>
+                  <tr>
+                     <td>Insult to Injury</td>
+                     <td>Status ailments and attribute penalties inflicted by the equipping character will last for one
+                     additional turn.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+      <div class="main__jobs">
+         <div class="job__copy">
+         <h3>Hunter</h3><img alt="Hunter" class="job__sprite" src="hunter.png"></div>
+         <div class="attributes">
+            <button class="collapsible">Attributes</button>
+            <table class="content">
+               <tr>
+                  <td>Accuracy</td>
+                  <td>6%</td>
+               </tr>
+               <tr>
+                  <td>Critical</td>
+                  <td>6%</td>
+               </tr>
+               <tr>
+                  <td>Evasion</td>
+                  <td>5%</td>
+               </tr>
+               <tr>
+                  <td>Physical Attack</td>
+                  <td>8%</td>
+               </tr>
+               <tr>
+                  <td>Speed</td>
+                  <td>5%</td>
+               </tr>
+            </table>
+         </div>
+         <div class="skills">
+            <button class="collapsible">Skills</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th>Skill</th>
+                     <th>SP</th>
+                     <th>Type</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Rain of Arrows</td>
+                     <td>8</td>
+                     <td><img alt="Bow" class="wpn_img" src="Bows.png" title="Bow"></td>
+                     <td>Attack random foes 5 to 8 times with a bow.</td>
+                  </tr>
+                  <tr>
+                     <td>True Strike</td>
+                     <td>10</td>
+                     <td><img alt="Bow" class="wpn_img" src="Bows.png" title="Bow"></td>
+                     <td>Deal critical damage with a bow to a single foe.</td>
+                  </tr>
+                  <tr>
+                     <td>Thunderbird</td>
+                     <td>7</td>
+                     <td><img alt="Lightning" class="wpn_img" src="lightning.jpg" title="Lightning"></td>
+                     <td>Deal heavy lightning damage to a single foe.</td>
+                  </tr>
+                  <tr>
+                     <td>Leghold Trap</td>
+                     <td>6</td>
+                     <td></td>
+                     <td>Cause a single foe to act at the end of the turn for 2 turns.</td>
+                  </tr>
+                  <tr>
+                     <td>Mercy Strike</td>
+                     <td>4</td>
+                     <td><img alt="Bow" class="wpn_img" src="Bows.png" title="Bow"></td>
+                     <td>Attack a single foe with a bow. Otherwise lethal attacks will instead leave the target with 1
+                     HP.</td>
+                  </tr>
+                  <tr>
+                     <td>Arrowstorm</td>
+                     <td>24</td>
+                     <td><img alt="Bow" class="wpn_img" src="Bows.png" title="Bow"></td>
+                     <td>Attack all foes 5 to 8 times with a bow.</td>
+                  </tr>
+                  <tr>
+                     <td>Take Aim</td>
+                     <td>8</td>
+                     <td></td>
+                     <td>Increase all allies' critical rate and accuracy for 2 turns.</td>
+                  </tr>
+                  <tr>
+                     <td><b>Draefendi's Rage</b></td>
+                     <td>30</td>
+                     <td><img alt="Bow" class="wpn_img" src="Bows.png" title="Bow"></td>
+                     <td>Unleash a highly powerful bow attack on all foes.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <div class="support__skills">
+            <button class="collapsible">Support Skills</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th>Support Skill</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Heighten Senses</td>
+                     <td>Attack random foes 5 to 8 times with a bow.</td>
+                  </tr>
+                  <tr>
+                     <td>Eagle Eye</td>
+                     <td>Deal critical damage with a bow to a single foe.</td>
+                  </tr>
+                  <tr>
+                     <td>Second Serving</td>
+                     <td>Deal heavy lightning damage to a single foe.</td>
+                  </tr>
+                  <tr>
+                     <td>Patience</td>
+                     <td>Cause a single foe to act at the end of the turn for 2 turns.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
       </div>
    </div>
-   <div class="main__jobs">
-      <div class="job__copy">
-      <h3>Apothecary</h3><img alt="Apothecary" class="job__sprite" src="char-sprite-alfyn.png"></div>
-      <div class="attributes">
-         <button class="collapsible">Attributes</button>
-         <table class="content">
-            <thead>
-               <tr>
-                  <th colspan="2">Attribute Bonus</th>
-               </tr>
-            </thead>
-            <tr>
-               <td>Critical</td>
-               <td>1.5%</td>
-            </tr>
-            <tr>
-               <td>Elemental Attack</td>
-               <td>1.5%</td>
-            </tr>
-            <tr>
-               <td>Max HP</td>
-               <td>20%</td>
-            </tr>
-            <tr>
-               <td>Physical Attack</td>
-               <td>1.5%</td>
-            </tr>
-            <tr>
-               <td>Physical Defense</td>
-               <td>1.5%</td>
-            </tr>
-         </table>
-      </div>
-      <div class="skills">
-         <button class="collapsible">Skills</button>
-         <table class="content">
-            <thead>
-               <tr>
-                  <th>Skill</th>
-                  <th>SP</th>
-                  <th>Type</th>
-                  <th>Description</th>
-               </tr>
-            </thead>
-            <tbody>
-               <tr>
-                  <td>First Aid</td>
-                  <td>4</td>
-                  <td></td>
-                  <td>Restore HP to a single ally.</td>
-               </tr>
-               <tr>
-                  <td>Icicle</td>
-                  <td>7</td>
-                  <td> <img alt="Ice" class="wpn_img" src="ice.jpg" title="Ice"></td>
-                  <td>Deal ice damage to a single foe.</td>
-               </tr>
-               <tr>
-                  <td>Rehabilitate</td>
-                  <td>10</td>
-                  <td></td>
-                  <td>Cure a single ally of all status ailments, and render them immune to further ailments for 2
-                  turns.</td>
-               </tr>
-               <tr>
-                  <td>Amputation</td>
-                  <td>8</td>
-                  <td> <img alt="Axe" class="wpn_img" src="Axes.png" title="Axe"></td>
-                  <td>Unleash an axe attack on a single foe.</td>
-               </tr>
-               <tr>
-                  <td>Empoison</td>
-                  <td>6</td>
-                  <td></td>
-                  <td>Poison a single foe for 2 turns.</td>
-               </tr>
-               <tr>
-                  <td>Vivify</td>
-                  <td>16</td>
-                  <td></td>
-                  <td>Revive a single incapacitated ally.</td>
-               </tr>
-               <tr>
-                  <td>Last Stand</td>
-                  <td>16</td>
-                  <td> <img alt="Axe" class="wpn_img" src="Axes.png" title="Axe"></td>
-                  <td>Attack all foes with an axe, dealing damage inversely proportional to your current HP.</td>
-               </tr>
-               <tr>
-                  <td><b>Dohter's Charity</b></td>
-                  <td>30</td>
-                  <td></td>
-                  <td>For 3 turns, items used by a single chosen ally will affect all.</td>
-               </tr>
-            </tbody>
-         </table>
-      </div>
-      <div class="support__skills">
-         <button class="collapsible">Support Skills</button>
-         <table class="content">
-            <thead>
-               <tr>
-                  <th>Support Skill</th>
-                  <th>Description</th>
-               </tr>
-            </thead>
-            <tbody>
-               <tr>
-                  <td>Inspiration</td>
-                  <td>With each successful standard attack, gain SP equal to 1% of the damage you deal.</td>
-               </tr>
-               <tr>
-                  <td>Hale and Hearty</td>
-                  <td>Increases maximum HP by 500.</td>
-               </tr>
-               <tr>
-                  <td>Resist Ailments</td>
-                  <td>Improves resistance to poison, sleep, confusion, blindness, silence, terror, and
-                  unconsciousness.</td>
-               </tr>
-               <tr>
-                  <td>Heightened Healing</td>
-                  <td>Gain an additional 30% HP or SP when being healed or restored.</td>
-               </tr>
-            </tbody>
-         </table>
-      </div>
+   <div class="page__title">
+      <h1>Advanced Job Classes</h1>
    </div>
-   <div class="main__jobs">
-      <div class="job__copy">
-      <h3>Thief</h3><img alt="Thief" class="job__sprite" src="char-sprite-therion.png"></div>
-      <div class="attributes">
-         <button class="collapsible">Attributes</button>
-         <table class="content">
-            <thead>
+   <div class="all__jobs">
+      <div class="main__jobs">
+         <div class="job__copy">
+         <h3>Warmaster</h3><img alt="Hunter" class="job__sprite" src="warmaster.gif"></div>
+         <div class="attributes">
+            <button class="collapsible">Attributes</button>
+            <table class="content">
                <tr>
-                  <th colspan="2">Attribute Bonus</th>
+                  <td>Physical Attack</td>
+                  <td>12%</td>
                </tr>
-            </thead>
-            <tr>
-               <td>Accuracy</td>
-               <td>5%</td>
-            </tr>
-            <tr>
-               <td>Critical</td>
-               <td>5%</td>
-            </tr>
-            <tr>
-               <td>Evasion</td>
-               <td>8%</td>
-            </tr>
-            <tr>
-               <td>Physical Attack</td>
-               <td>2%</td>
-            </tr>
-            <tr>
-               <td>Speed</td>
-               <td>8%</td>
-            </tr>
-         </table>
+               <tr>
+                  <td>Physical Defense</td>
+                  <td>12%</td>
+               </tr>
+               <tr>
+                  <td>Accuracy</td>
+                  <td>6%</td>
+               </tr>
+               <tr>
+                  <td>Speed</td>
+                  <td>6%</td>
+               </tr>
+               <tr>
+                  <td>Evasion</td>
+                  <td>6%</td>
+               </tr>
+            </table>
+         </div>
+         <div class="skills">
+            <button class="collapsible">Skills</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th>Skill</th>
+                     <th>SP</th>
+                     <th>Type</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Guardian Liondog</td>
+                     <td>35</td>
+                     <td><img alt="Sword" class="wpn_img" src="Swords.png" title="Sword"></td>
+                     <td>Unleash 5 to 10 sword attacks on random foes.</td>
+                  </tr>
+                  <tr>
+                     <td>Tiger Rage</td>
+                     <td>35</td>
+                     <td><img alt="Axe" class="wpn_img" src="Axes.png" title="Axe"></td>
+                     <td>Unleash an axe attack on all foes.</td>
+                  </tr>
+                  <tr>
+                     <td>Qilin's Horn</td>
+                     <td>35</td>
+                     <td><img alt="Polearm" class="wpn_img" src="Polearms.png" title="Polearm"></td>
+                     <td>Unleash a polearm attack on a single foe.</td>
+                  </tr>
+                  <tr>
+                     <td>Yatagarasu</td>
+                     <td>35</td>
+                     <td><img alt="Dagger" class="wpn_img" src="Daggers.png" title="Dagger"></td>
+                     <td>Unleash a dagger attack on all foes.</td>
+                  </tr>
+                  <tr>
+                     <td>Fox Spirit</td>
+                     <td>35</td>
+                     <td><img alt="Staff" class="wpn_img" src="Staves.png" title="Staff"></td>
+                     <td>Unleash a staff attack on all foes.</td>
+                  </tr>
+                  <tr>
+                     <td>Phoenix Storm</td>
+                     <td>35</td>
+                     <td><img alt="Bow" class="wpn_img" src="Bows.png" title="Bow"></td>
+                     <td>Unleash a bow attack on a single foe.</td>
+                  </tr>
+                  <tr>
+                     <td>Nightmare Chimera</td>
+                     <td>35</td>
+                     <td><img alt="Sword" class="wpn_img" src="Swords.png" title="Sword"> <img alt="Polearm" class=
+                     "wpn_img" src="Polearms.png" title="Polearm"> <img alt="Axe" class="wpn_img" src="Axes.png" title=
+                     "Axe"> <img alt="Dagger" class="wpn_img" src="Daggers.png" title="Dagger"> <img alt="Staff" class=
+                     "wpn_img" src="Staves.png" title="Staff"> <img alt="Bow" class="wpn_img" src="Bows.png" title=
+                     "Bow"></td>
+                     <td>Unleash an attack on a single foe using a weapon in your inventory. The weapon will be
+                     destroyed.</td>
+                  </tr>
+                  <tr>
+                     <td><b>Winnehild's Battle Cry</b></td>
+                     <td>50</td>
+                     <td><img alt="Sword" class="wpn_img" src="Swords.png" title="Sword"> <img alt="Polearm" class=
+                     "wpn_img" src="Polearms.png" title="Polearm"> <img alt="Axe" class="wpn_img" src="Axes.png" title=
+                     "Axe"> <img alt="Dagger" class="wpn_img" src="Daggers.png" title="Dagger"> <img alt="Staff" class=
+                     "wpn_img" src="Staves.png" title="Staff"> <img alt="Bow" class="wpn_img" src="Bows.png" title=
+                     "Bow"></td>
+                     <td>Wield six weapons to unleash six attacks on all foes.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <div class="support__skills">
+            <button class="collapsible">Support Skills</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th>Support Skill</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Extra Experience</td>
+                     <td>Gain additional experience from battles. (Equipping this skill with multiple characters will
+                     have no added effect.</td>
+                  </tr>
+                  <tr>
+                     <td>Stalwart Defense</td>
+                     <td>Enhances physical defense by 50.</td>
+                  </tr>
+                  <tr>
+                     <td>Fortitude</td>
+                     <td>Deal more damage the lower your current HP is.</td>
+                  </tr>
+                  <tr>
+                     <td>Physical Prowess</td>
+                     <td>Augments Physical Attack and Physical Defense during battle.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
       </div>
-      <div class="skills">
-         <button class="collapsible">Skills</button>
-         <table class="content">
-            <thead>
+      <div class="main__jobs">
+         <div class="job__copy">
+         <h3>Runelord</h3><img alt="Hunter" class="job__sprite" src="runelord.gif"></div>
+         <div class="attributes">
+            <button class="collapsible">Attributes</button>
+            <table class="content">
                <tr>
-                  <th>Skill</th>
-                  <th>SP</th>
-                  <th>Type</th>
-                  <th>Description</th>
-               </tr>
-            </thead>
-            <tbody>
-               <tr>
-                  <td>Steal</td>
-                  <td>2</td>
-                  <td></td>
-                  <td>Steal an item from a single foe.</td>
+                  <td>Physical Attack</td>
+                  <td>7%</td>
                </tr>
                <tr>
-                  <td>Wildfire</td>
-                  <td>7</td>
-                  <td> <img alt="Fire" class="wpn_img" src="fire.jpg" title="Fire"></td>
-                  <td>Deal heavy fire damage to a single foe.</td>
+                  <td>Physical Defense</td>
+                  <td>7%</td>
                </tr>
                <tr>
-                  <td>HP Thief</td>
-                  <td>6</td>
-                  <td> <img alt="Dagger" class="wpn_img" src="Daggers.png" title="Dagger"></td>
-                  <td>Attack a single foe twice with a dagger, and steal HP equivalent to half of the damage
-                  dealt.</td>
+                  <td>Elemental Attack</td>
+                  <td>7%</td>
                </tr>
                <tr>
-                  <td>Shackle Foe</td>
-                  <td>4</td>
-                  <td></td>
-                  <td>Reduce a single foe's physical attack strength for 2 turns.</td>
+                  <td>Elemental Defense</td>
+                  <td>7%</td>
                </tr>
                <tr>
-                  <td>Armor Corrosive</td>
-                  <td>4</td>
-                  <td></td>
-                  <td>Reduce a single foe's physical defense for 2 turns.</td>
+                  <td>Accuracy</td>
+                  <td>6%</td>
                </tr>
                <tr>
-                  <td>Steal SP</td>
-                  <td>6</td>
-                  <td> <img alt="Dagger" class="wpn_img" src="Daggers.png" title="Dagger"></td>
-                  <td>Attack a single foe twice with a dagger and steal SP equivalent to 5% of damage dealt.</td>
+                  <td>Critical</td>
+                  <td>8%</td>
                </tr>
-               <tr>
-                  <td>Share SP</td>
-                  <td>-</td>
-                  <td></td>
-                  <td>Bestow SP equivalent to 50% of one's current SP to a single ally.</td>
-               </tr>
-               <tr>
-                  <td><b>Aeber's Reckoning</b></td>
-                  <td>30</td>
-                  <td> <img alt="Dagger" class="wpn_img" src="Daggers.png" title="Dagger"></td>
-                  <td>Attack all foes with a dagger, dealing damage proportional to your speed.</td>
-               </tr>
-            </tbody>
-         </table>
+            </table>
+         </div>
+         <div class="skills">
+            <button class="collapsible">Skills</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th>Skill</th>
+                     <th>SP</th>
+                     <th>Type</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Fire Rune</td>
+                     <td>15</td>
+                     <td><img alt="Fire" class="wpn_img" src="fire.jpg" title="Fire"></td>
+                     <td>Weapon attacks will deal additional fire-based damage for 3 turns.</td>
+                  </tr>
+                  <tr>
+                     <td>Ice Rune</td>
+                     <td>15</td>
+                     <td><img alt="Ice" class="wpn_img" src="ice.jpg" title="Ice"></td>
+                     <td>Weapon attacks will deal additional ice-based damage for 3 turns.</td>
+                  </tr>
+                  <tr>
+                     <td>Thunder Rune</td>
+                     <td>15</td>
+                     <td><img alt="Lightning" class="wpn_img" src="lightning.jpg" title="Lightning"></td>
+                     <td>Weapon attacks will deal additional lightning-based damage for 3 turns.</td>
+                  </tr>
+                  <tr>
+                     <td>Wind Rune</td>
+                     <td>15</td>
+                     <td><img alt="Wind" class="wpn_img" src="wind.jpg" title="Wind"></td>
+                     <td>Weapon attacks will deal additional wind-based damage for 3 turns.</td>
+                  </tr>
+                  <tr>
+                     <td>Dark Rune</td>
+                     <td>15</td>
+                     <td><img alt="Darkness" class="wpn_img" src="darkness.jpg" title="Darkness"></td>
+                     <td>Weapon attacks will deal additional dark-based damage for 3 turns.</td>
+                  </tr>
+                  <tr>
+                     <td>Light Rune</td>
+                     <td>15</td>
+                     <td><img alt="Light" class="wpn_img" src="light.jpg" title="Light"></td>
+                     <td>Weapon attacks will deal additional light-based damage for 3 turns.</td>
+                  </tr>
+                  <tr>
+                     <td>Transfer Rune</td>
+                     <td>25</td>
+                     <td></td>
+                     <td>For 3 turns, skills that normally target yourself alone will target your allies as well.</td>
+                  </tr>
+                  <tr>
+                     <td><b>Balogar's Blade</b></td>
+                     <td>50</td>
+                     <td><img alt="Fire" class="wpn_img" src="fire.jpg" title="Fire"> <img alt="Ice" class="wpn_img"
+                     src="ice.jpg" title="Ice"> <img alt="Lightning" class="wpn_img" src="lightning.jpg" title=
+                     "Lightning"> <img alt="Wind" class="wpn_img" src="wind.jpg" title="Wind"> <img alt="Light" class=
+                     "wpn_img" src="light.jpg" title="Light"> <img alt="Darkness" class="wpn_img" src="darkness.jpg"
+                     title="Darkness"></td>
+                     <td>Deal damage from each of the six elements to a single foe.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <div class="support__skills">
+            <button class="collapsible">Support Skills</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th>Support Skill</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Stat Swap</td>
+                     <td>Elemental and Physical Strength will be swapped with one another.</td>
+                  </tr>
+                  <tr>
+                     <td>SP Recovery</td>
+                     <td>Upon taking damage from foes, gain an amount of SP equal to 1% of damage taken.</td>
+                  </tr>
+                  <tr>
+                     <td>Dauntless</td>
+                     <td>Gain increase in Physical Attack and Elemental Attack when suffering from a status
+                     ailment.</td>
+                  </tr>
+                  <tr>
+                     <td>Elemental Edge</td>
+                     <td>Gain augmented Elemental Attack and Defense in battle.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
       </div>
-      <div class="support__skills">
-         <button class="collapsible">Support Skills</button>
-         <table class="content">
-            <thead>
+      <div class="main__jobs">
+         <div class="job__copy">
+         <h3>Sorcerer</h3><img alt="Sorcerer" class="job__sprite" src="sorcerer.gif"></div>
+         <div class="attributes">
+            <button class="collapsible">Attributes</button>
+            <table class="content">
                <tr>
-                  <th>Support Skill</th>
-                  <th>Description</th>
-               </tr>
-            </thead>
-            <tbody>
-               <tr>
-                  <td>Incidental Attack</td>
-                  <td>When using a non-damaging skill on a foe, there is a 50% chance you will attack as well.</td>
+                  <td>SP</td>
+                  <td>20%</td>
                </tr>
                <tr>
-                  <td>Fleetfoot</td>
-                  <td>Increases the equipping character's speed by 50.</td>
+                  <td>Elemental Attack</td>
+                  <td>9%</td>
                </tr>
                <tr>
-                  <td>Snatch</td>
-                  <td>The Equipping character will receive double the loot when using steal or collect skills.</td>
+                  <td>Elemental Defense</td>
+                  <td>9%</td>
                </tr>
                <tr>
-                  <td>Insult to Injury</td>
-                  <td>Status ailments and attribute penalties inflicted by the equipping character will last for one
-                  additional turn.</td>
+                  <td>Critical</td>
+                  <td>2%</td>
                </tr>
-            </tbody>
-         </table>
+            </table>
+         </div>
+         <div class="skills">
+            <button class="collapsible">Skills</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th>Skill</th>
+                     <th>SP</th>
+                     <th>Type</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Ignis Ardere</td>
+                     <td>36</td>
+                     <td><img alt="Fire" class="wpn_img" src="fire.jpg" title="Fire"></td>
+                     <td>Deal fire damage to all foes 3 times.</td>
+                  </tr>
+                  <tr>
+                     <td>Glacies Claudere</td>
+                     <td>36</td>
+                     <td><img alt="Ice" class="wpn_img" src="ice.jpg" title="Ice"></td>
+                     <td>Deal ice damage to all foes 3 times.</td>
+                  </tr>
+                  <tr>
+                     <td>Tonitrus Canere</td>
+                     <td>36</td>
+                     <td><img alt="Lightning" class="wpn_img" src="lightning.jpg" title="Lightning"></td>
+                     <td>Deal lightning damage to all foes 3 times.</td>
+                  </tr>
+                  <tr>
+                     <td>Venus Saltare</td>
+                     <td>36</td>
+                     <td><img alt="Wind" class="wpn_img" src="wind.jpg" title="Wind"></td>
+                     <td>Deal wind damage to all foes 3 times.</td>
+                  </tr>
+                  <tr>
+                     <td>Lux Congerere</td>
+                     <td>36</td>
+                     <td><img alt="Light" class="wpn_img" src="light.jpg" title="Light"></td>
+                     <td>Deal light damage to all foes 3 times.</td>
+                  </tr>
+                  <tr>
+                     <td>Tenebrae Operir</td>
+                     <td>36</td>
+                     <td><img alt="Darkness" class="wpn_img" src="darkness.jpg" title="Darkness"></td>
+                     <td>Deal dark damage to all foes 3 times.</td>
+                  </tr>
+                  <tr>
+                     <td>Elemental Break</td>
+                     <td>20</td>
+                     <td><img alt="Staff" class="wpn_img" src="Staves.png" title="Staff"></td>
+                     <td>Unleash a powerful staff attack on a single foe that also reduces the target's elemental
+                     defense for 2 turns.</td>
+                  </tr>
+                  <tr>
+                     <td><b>Dreisang's Spell</b></td>
+                     <td>50</td>
+                     <td></td>
+                     <td>For 3 turns, elemental attacks performed by a single ally will hit for critical damage.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <div class="support__skills">
+            <button class="collapsible">Support Skills</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th>Support Skill</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Intimidation</td>
+                     <td>Grants a 25% chance to reduce enemy physical and elemental defense at the start of battle.
+                     (Equipping this skill with multiple characters will have no added effect.)</td>
+                  </tr>
+                  <tr>
+                     <td>Stronger Strikes</td>
+                     <td>Increase damage dealt when striking a foe's weak point.</td>
+                  </tr>
+                  <tr>
+                     <td>Elemental Aid</td>
+                     <td>Elemental attacks consume double SP but also deal additional damage.</td>
+                  </tr>
+                  <tr>
+                     <td>Augmented Elements</td>
+                     <td>Increases damage dealt by elemental attacks.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
       </div>
-   </div>
-   <div class="main__jobs">
-      <div class="job__copy">
-      <h3>Hunter</h3><img alt="Hunter" class="job__sprite" src="char-sprite-haanit.png"></div>
-      <div class="attributes">
-         <button class="collapsible">Attributes</button>
-         <table class="content">
-            
-            <tr>
-               <td>Accuracy</td>
-               <td>6%</td>
-            </tr>
-            <tr>
-               <td>Critical</td>
-               <td>6%</td>
-            </tr>
-            <tr>
-               <td>Evasion</td>
-               <td>5%</td>
-            </tr>
-            <tr>
-               <td>Physical Attack</td>
-               <td>8%</td>
-            </tr>
-            <tr>
-               <td>Speed</td>
-               <td>5%</td>
-            </tr>
-         </table>
+      <div class="main__jobs">
+         <div class="job__copy">
+         <h3>Starseer</h3><img alt="Hunter" class="job__sprite" src="starseer.gif"></div>
+         <div class="attributes">
+            <button class="collapsible">Attributes</button>
+            <table class="content">
+               <tr>
+                  <td>HP</td>
+                  <td>15%</td>
+               </tr>
+               <tr>
+                  <td>SP</td>
+                  <td>15%</td>
+               </tr>
+               <tr>
+                  <td>Physical Attack</td>
+                  <td>2%</td>
+               </tr>
+               <tr>
+                  <td>Physical Defense</td>
+                  <td>2%</td>
+               </tr>
+               <tr>
+                  <td>Elemental Attack</td>
+                  <td>2%</td>
+               </tr>
+               <tr>
+                  <td>Elemental Defense</td>
+                  <td>2%</td>
+               </tr>
+            </table>
+         </div>
+         <div class="skills">
+            <button class="collapsible">Skills</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th>Skill</th>
+                     <th>SP</th>
+                     <th>Type</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Shooting Stars</td>
+                     <td>35</td>
+                     <td><img alt="Wind" class="wpn_img" src="wind.jpg" title="Wind"> <img alt="Light" class="wpn_img"
+                     src="light.jpg" title="Light"> <img alt="Darkness" class="wpn_img" src="darkness.jpg" title=
+                     "Darkness"></td>
+                     <td>Deal wind, light, and dark damage to all foes.</td>
+                  </tr>
+                  <tr>
+                     <td>BP Boost</td>
+                     <td>25</td>
+                     <td></td>
+                     <td>Allow a single ally to gain 2 BP per turn for 2 turns.</td>
+                  </tr>
+                  <tr>
+                     <td>Divination</td>
+                     <td>25</td>
+                     <td></td>
+                     <td>Increase a single ally's critical rate for 2 turns.</td>
+                  </tr>
+                  <tr>
+                     <td>Starsong</td>
+                     <td>25</td>
+                     <td></td>
+                     <td>Augment a single ally's physical defense, elemental defense, speed, and evasion for 2
+                     turns.</td>
+                  </tr>
+                  <tr>
+                     <td>Celestial Intervention</td>
+                     <td>25</td>
+                     <td></td>
+                     <td>For 2 turns, render a single foe unable to receive attribute augmentations, or a single ally
+                     immune to attribute penalties.</td>
+                  </tr>
+                  <tr>
+                     <td>Ethereal Healing</td>
+                     <td>30</td>
+                     <td></td>
+                     <td>Grant HP regeneration to all allies for 2 turns.</td>
+                  </tr>
+                  <tr>
+                     <td>Moon's Refllection</td>
+                     <td>30</td>
+                     <td></td>
+                     <td>Grant a single ally the ability to counter physical damage one time.</td>
+                  </tr>
+                  <tr>
+                     <td><b>Steorra's Prophecy</b></td>
+                     <td>50</td>
+                     <td></td>
+                     <td>Unleash an elemental attack on all foes that deals damage proportional to the party's current
+                     BP.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <div class="support__skills">
+            <button class="collapsible">Support Skills</button>
+            <table class="content">
+               <thead>
+                  <tr>
+                     <th>Support Skill</th>
+                     <th>Description</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Hard Worker</td>
+                     <td>Gain additional JP after battles. (Equipping this skill with multiple characters will have no
+                     added effect.)</td>
+                  </tr>
+                  <tr>
+                     <td>Boost-Start</td>
+                     <td>Gain an additional Boost Point at the start of battle.</td>
+                  </tr>
+                  <tr>
+                     <td>BP Eater</td>
+                     <td>Boosted skills performed by the equipping character will deal additional damage.</td>
+                  </tr>
+                  <tr>
+                     <td>Divine Aura</td>
+                     <td>Grants a 25% chance to nullify any incoming damage.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
       </div>
-      <div class="skills">
-         <button class="collapsible">Skills</button>
-         <table class="content">
-            <thead>
-               <tr>
-                  <th>Skill</th>
-                  <th>SP</th>
-                  <th>Type</th>
-                  <th>Description</th>
-               </tr>
-            </thead>
-            <tbody>
-               <tr>
-                  <td>Rain of Arrows </td>
-                  <td>8</td>
-                  <td><img alt="Bow" class="wpn_img" src="Bows.png" title="Bow"></td>
-                  <td>Attack random foes 5 to 8 times with a bow.</td>
-               </tr>
-               <tr>
-                  <td>True Strike</td>
-                  <td>10</td>
-                  <td> <img alt="Bow" class="wpn_img" src="Bows.png" title="Bow"></td>
-                  <td>Deal critical damage with a bow to a single foe.</td>
-               </tr>
-               <tr>
-                  <td>Thunderbird </td>
-                  <td>7</td>
-                  <td><img alt="Lightning" class="wpn_img" src="lightning.jpg" title="Lightning"></td>
-                  <td>Deal heavy lightning damage to a single foe.</td>
-               </tr>
-               <tr>
-                  <td>Leghold Trap</td>
-                  <td>6</td>
-                  <td></td>
-                  <td>Cause a single foe to act at the end of the turn for 2 turns.</td>
-               </tr>
-               <tr>
-                  <td>Mercy Strike </td>
-                  <td>4</td>
-                  <td><img alt="Bow" class="wpn_img" src="Bows.png" title="Bow"></td>
-                  <td>Attack a single foe with a bow. Otherwise lethal attacks will instead leave the target with 1
-                  HP.</td>
-               </tr>
-               <tr>
-                  <td>Arrowstorm </td>
-                  <td>24</td>
-                  <td><img alt="Bow" class="wpn_img" src="Bows.png" title="Bow"></td>
-                  <td>Attack all foes 5 to 8 times with a bow.</td>
-               </tr>
-               <tr>
-                  <td>Take Aim</td>
-                  <td>8</td>
-                  <td></td>
-                  <td>Increase all allies' critical rate and accuracy for 2 turns.</td>
-               </tr>
-               <tr>
-                  <td><b>Draefendi's Rage</b></td>
-                  <td>30</td>
-                  <td> <img alt="Bow" class="wpn_img" src="Bows.png" title="Bow"></td>
-                  <td>Unleash a highly powerful bow attack on all foes.</td>
-               </tr>
-            </tbody>
-         </table>
-      </div>
-      <div class="support__skills">
-         <button class="collapsible">Support Skills</button>
-         <table class="content">
-            <thead>
-               <tr>
-                  <th>Support Skill</th>
-                  <th>Description</th>
-               </tr>
-            </thead>
-            <tbody>
-               <tr>
-                  <td>Heighten Senses</td>
-                  <td>Attack random foes 5 to 8 times with a bow.</td>
-               </tr>
-               <tr>
-                  <td>Eagle Eye</td>
-                  <td>Deal critical damage with a bow to a single foe.</td>
-               </tr>
-               <tr>
-                  <td>Second Serving</td>
-                  <td>Deal heavy lightning damage to a single foe.</td>
-               </tr>
-               <tr>
-                  <td>Patience</td>
-                  <td>Cause a single foe to act at the end of the turn for 2 turns.</td>
-               </tr>
-            </tbody>
-         </table>
-      </div>
-</div>
       <script src="main.js" type="text/javascript">
       </script> 
       <script src="http://code.jquery.com/jquery-1.11.1.min.js">
@@ -1018,6 +1537,7 @@
    <div class="main__footer">
       <p>Octopath Project is not affiliated with Square Enix. All materials are the property of SQUARE ENIX CO., LTD.
       All Rights Reserved.</p>
-   </div>
+   </div><a href="#top">
+   <div class="back__button" title="Back to Top"><img alt="Back to Top" src="compass.png"></div></a>
 </body>
 </html>

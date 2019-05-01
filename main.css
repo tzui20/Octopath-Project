@@ -240,10 +240,9 @@ h3 {
 .main__jobs {
    display: flex;
    flex-wrap: wrap;
-   width: 38%;
+  justify-content: space-between;
+    width: 46%;
    height: fit-content;
-   justify-content: space-between;
-   margin: auto;
    margin-top: 30px;
    margin-bottom: 30px;
    border-radius: 3px;
@@ -263,23 +262,30 @@ h3 {
 }
 
 .all__jobs {
-   height: fit-content;
-   width: 100%;
-   display: flex;
-   flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 1rem;
+    flex-wrap: wrap;
 }
 
 .page__title {
-   height: 5%;
-   width: fit-content;
-   margin-top: 45px;
-   text-align: right;
-   background: white;
-   opacity: 0.9;
-   padding: 0.4rem 1rem;
-   font-family: Gal;
-   font-size: 16px;
-   box-shadow: 8px 7px 20px 0px #000000;
+    height: 6%;
+    width: fit-content;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    background: white;
+    opacity: 0.8;
+    padding: 0.4rem 1rem;
+    font-family: Gal;
+    font-size: 16px;
+    border-radius: 3px;
+    border-right: 1px solid #3b3b3b;
+    border-bottom: 1px solid #3b3b3b;
+    border-left: 1px solid #5b5b5b;
+    border-top: 1px solid #5b5b5b;
+    box-shadow: inset 0 0 10px #000;
 }
 
 .main__jobs h2 {

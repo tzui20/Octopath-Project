@@ -158,9 +158,6 @@ ul.news__list {
    color: brown;
 }
 
-.nav__item:hover .list__logo {
-   transform: rotate(-180deg);
-}
 
 .main__body__travelers {
    height: auto;

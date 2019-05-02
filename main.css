@@ -108,7 +108,7 @@ ul.news__list {
 }
 
 .main__nav {
-   width: 80%;
+   width: fit-content;
    margin: auto;
    height: auto;
    display: flex;
@@ -143,21 +143,20 @@ ul.news__list {
    font-weight: bold;
    letter-spacing: 2px;
    text-transform: uppercase;
-   margin: 0rem 1rem 1rem 1rem
+   margin: 0rem 1rem 1rem 1rem;
 }
 
 .list__logo {
-    width: 40px;
-    height: 41px;
-    position: relative;
-    top: 13px;
-    right: 7px;
+   width: 40px;
+   height: 41px;
+   position: relative;
+   top: 13px;
+   right: 7px;
 }
 
 .nav__item:hover {
    color: brown;
 }
-
 
 .main__body__travelers {
    height: auto;
@@ -214,7 +213,7 @@ h3 {
 }
 
 .job__copy h3 {
-   font-size: 30px;
+   font-size: 40px;
 }
 
 .opposite {
@@ -225,6 +224,7 @@ h3 {
    .traveler__box {
       flex-direction: column;
    }
+
    .opposite {
       flex-direction: column;
    }
@@ -236,20 +236,20 @@ h3 {
 }
 
 .main__jobs {
-      display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: -webkit-fill-available;
-    height: fit-content;
-    margin-top: 30px;
-    margin-bottom: 30px;
-      border-radius: 11px;
-    border-right: 1px solid #3b3b3b;
-    border-bottom: 1px solid #3b3b3b;
-    border-left: 1px solid #5b5b5b;
-    border-top: 1px solid #5b5b5b;
-    box-shadow: inset 0 0 10px #000;
-    background: white;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   width: -webkit-fill-available;
+   height: fit-content;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   border-radius: 11px;
+   border-right: 1px solid #3b3b3b;
+   border-bottom: 1px solid #3b3b3b;
+   border-left: 1px solid #5b5b5b;
+   border-top: 1px solid #5b5b5b;
+   box-shadow: inset 0 0 10px #000;
+   background: white;
 }
 
 @media (max-width: 980px) {
@@ -259,30 +259,30 @@ h3 {
 }
 
 .all__jobs {
-    justify-content: space-evenly;
-    display: flex;
-    padding: 1rem;
-    flex-wrap: wrap;
+   justify-content: space-evenly;
+   display: flex;
+   padding: 1rem;
+   flex-wrap: wrap;
 }
 
 .page__title {
-    height: 6%;
-    width: fit-content;
-    margin-top: 45px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: right;
-    background: white;
-    opacity: 0.8;
-    padding: 0.4rem 1rem;
-    font-family: Gal;
-    font-size: 16px;
-    border-radius: 3px;
-    border-right: 1px solid #3b3b3b;
-    border-bottom: 1px solid #3b3b3b;
-    border-left: 1px solid #5b5b5b;
-    border-top: 1px solid #5b5b5b;
-    box-shadow: inset 0 0 10px #000;
+   height: 6%;
+   width: fit-content;
+   margin-top: 45px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: right;
+   background: white;
+   opacity: 0.8;
+   padding: 0.4rem 1rem;
+   font-family: Gal;
+   font-size: 16px;
+   border-radius: 3px;
+   border-right: 1px solid #3b3b3b;
+   border-bottom: 1px solid #3b3b3b;
+   border-left: 1px solid #5b5b5b;
+   border-top: 1px solid #5b5b5b;
+   box-shadow: inset 0 0 10px #000;
 }
 
 .page__title h1 {
@@ -322,10 +322,10 @@ td:nth-child(1) {
 
 th,
 td {
-    padding: 0.5rem;
-    background-color: transparent;
-        border: 1px groove white;
-    border-collapse: collapse;
+   padding: 0.5rem;
+   background-color: transparent;
+   border: 1px groove white;
+   border-collapse: collapse;
 }
 
 td .wpn_img {
@@ -349,7 +349,7 @@ td .wpn_img {
    padding: 0rem 2rem;
    display: none;
    overflow: hidden;
-    width: fit-content;
+   width: fit-content;
 }
 
 .collapsible {
@@ -363,20 +363,20 @@ td .wpn_img {
    outline: none;
    font-size: 15px;
    font-weight: bold;
-       border-radius: 9px;
+   border-radius: 9px;
 }
 
 button.collapsible.main {
-      background-color: transparent;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: auto;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    font-weight: bold;
+   background-color: transparent;
+   color: #444;
+   cursor: pointer;
+   padding: 18px;
+   width: auto;
+   border: none;
+   text-align: left;
+   outline: none;
+   font-size: 15px;
+   font-weight: bold;
 }
 
 .attributes {
@@ -391,43 +391,46 @@ button.collapsible.main {
 }
 
 .jobs {
-       display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
 }
 
 .all__jobs {
-       display: flex;
-    padding: 1rem;
-    width: 70%;
-    margin: auto;
-    margin-top: 2rem;
-    background: transparent;
-    opacity: 0.9;
-    flex-direction: column;
+   display: flex;
+   padding: 1rem;
+   width: 70%;
+   margin: auto;
+   margin-top: 2rem;
+   background: transparent;
+   opacity: 0.9;
+   flex-direction: column;
 }
 
-.one__job {    
-      display: flex;
-    flex-direction: row;
-    width: 100%;
-    text-align: -webkit-center;
- }
-
-
- @media (max-width: 980px){
-   .one__job {    
-      display: flex;
-    flex-direction: column;
-    width: 100%;
-    text-align: -webkit-center;
- }
- .all__jobs {
-    width: fit-content;
-
+.one__job {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   text-align: -webkit-center;
 }
-.main__body__travelers {
-    width: 88%;
+
+@media (max-width: 980px) {
+   .one__job {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      text-align: -webkit-center;
+   }
+
+   .all__jobs {
+      width: fit-content;
+   }
+
+   .main__body__travelers {
+      width: 88%;
+   }
+   .main__nav {
+    width: 90%;
 }
 }
 
